@@ -157,221 +157,10 @@
    <!-- Offcanvas area start -->
 
    <!-- Header area start -->
-   <header>
-      <div id="header-sticky" class="header-area">
-         <div class="container-fluid">
-            <div class="mega-menu-wrapper">
-               <div class="header-main">
-                  <div class="header-left">
-                     <div class="header-logo">
-                        <a href="index.html">
-                           <img src="assets/imgs/logo/logo.svg" alt="logo not found">
-                        </a>
-                     </div>
-                     <div class="mean__menu-wrapper d-none d-lg-block">
-                        <div class="main-menu">
-                          <nav id="mobile-menu">
-                              <ul>
-                                 <li class="has-dropdown active menu-thumb">
-                                    <a href="index.html">
-                                        Inicio 
-                                    </a>
-                                    <!--ul class="submenu has-homemenu">
-                                        <li>
-                                            <div class="homemenu-items">
-                                                <div class="homemenu">
-                                                    <div class="homemenu-thumb">
-                                                        <img src="assets/imgs/header/home-1.jpg" alt="img">
-                                                        <div class="demo-button">
-                                                            <a href="index.html" class="theme-btn">
-                                                               Demo Page
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="homemenu-content text-center">
-                                                        <h4 class="homemenu-title">
-                                                            Home 01
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                                <div class="homemenu">
-                                                    <div class="homemenu-thumb mb-15">
-                                                      <img src="assets/imgs/header/home-2.jpg" alt="img">
-                                                        <div class="demo-button">
-                                                            <a href="index-2.html" class="theme-btn">
-                                                               Demo Page
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="homemenu-content text-center">
-                                                        <h4 class="homemenu-title">
-                                                            Home 02
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                                <div class="homemenu">
-                                                    <div class="homemenu-thumb mb-15">
-                                                      <img src="assets/imgs/header/home-3.jpg" alt="img">
-                                                        <div class="demo-button">
-                                                            <a href="index-3.html" class="theme-btn">
-                                                                Demo Page
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="homemenu-content text-center">
-                                                        <h4 class="homemenu-title">
-                                                            Home 03
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                                <div class="homemenu">
-                                                   <div class="homemenu-thumb mb-15">
-                                                     <img src="assets/imgs/header/home-4.jpg" alt="img">
-                                                       <div class="demo-button">
-                                                           <a href="index-4.html" class="theme-btn">
-                                                               Demo Page
-                                                           </a>
-                                                       </div>
-                                                   </div>
-                                                   <div class="homemenu-content text-center">
-                                                       <h4 class="homemenu-title">
-                                                           Home 04
-                                                       </h4>
-                                                   </div>
-                                               </div>
-                                            </div>
-                                        </li>
-                                    </ul-->
-                                </li>
-                                 <li class="has-dropdown d-lg-none">
-                                    <a href="index.html">Inicio</a>
-                                    <!--ul class="submenu">
-                                       <li><a href="index.html">Medical Center</a></li>
-                                       <li><a href="index-2.html">Diagnostic Center</a></li>
-                                       <li><a href="index-3.html">Plastic Surgery</a></li>
-                                       <li><a href="index-4.html">Medical Shop</a></li>
-                                    </ul-->
-                                 </li>
-                                 <li>
-                                    <a href="about.html">Nosotros</a>
-                                 </li>
-                                 <li class="has-dropdown">
-                                    <a href="blog.html">Servicios</a>
-                                    <ul class="submenu">
-                                       <li><a href="service.html">Nuestros Servicios</a></li>
-                                       <li><a href="service-details.html">Detalles de Servicio</a></li>
-                                    </ul>
-                                 </li>
-                                 <!--li class="has-dropdown">
-                                    <a href="blog.html">Pages</a>
-                                    <ul class="submenu">
-                                       <li><a href="appointment.html">Appointment</a></li>
-                                       <li class="has-dropdown"><a href="doctor.html">Doctor</a>
-                                          <ul class="submenu">
-                                             <li><a href="doctor.html">Doctor</a></li>
-                                             <li><a href="doctor-2.html">Doctor v2</a></li>
-                                             <li><a href="doctor-3.html">Doctor v3</a></li>
-                                             <li><a href="doctor-details.html">Doctor Details</a></li>
-                                          </ul>
-                                       </li>
-                                       <li><a href="project.html">Project</a></li>
-                                       <li><a href="project-details.html">Project Details</a></li>
-                                       <li><a href="product.html">Product</a></li>
-                                       <li><a href="product-details.html">Product Details</a></li>
-                                       <li><a href="wishlist.html">Wishlist</a></li>
-                                       <li><a href="cart.html">Cart</a></li>
-                                       <li><a href="checkout.html">Checkout</a></li>
-                                       <li><a href="error.html">Error Page</a></li>
-                                    </ul>
-                                 </li-->
-                                 <li class="has-dropdown">
-                                    <a href="blog.html">Blog</a>
-                                    <ul class="submenu">
-                                       <li><a href="blog.html">Blog Default</a></li>
-                                       <li><a href="blog-grid.html">Blog Grid</a></li>
-                                       <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                 </li>
-                                 <li>
-                                    <a href="contact.html">Contactanos</a>
-                                 </li>
-                              </ul>
-                           </nav>
-                           <!-- for wp -->
-                           <div class="header__hamburger ml-50 d-none">
-                              <button type="button" class="hamburger-btn offcanvas-open-btn">
-                                 <span>01</span>
-                                 <span>01</span>
-                                 <span>01</span>
-                              </button>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="header-right d-flex align-items-center justify-content-end ">
-                     <div class="header-action d-none d-lg-inline-flex gap-3 ">
-                        <div class="link-text d-none d-xxl-block">
-                           <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
-                           <span><a href="#">+57 305 789 7369</a></span>
-                        </div>
-                        <!--div class="header-lang-item header-lang d-none d-xl-block">
-                           <span class="header-lang-toggle" id="header-lang-toggle">English</span>
-                           <ul>
-                              <li>
-                                 <a href="#">Spanish</a>
-                              </li>
-                              <li>
-                                 <a href="#">Russian</a>
-                              </li>
-                              <li>
-                                 <a href="#">Portuguese</a>
-                              </li>
-                           </ul>
-                        </div-->
-                        <div class="header-quick-access d-flex align-items-center">
-                           <button class="search-toggle-open header-search">
-                              <span>
-                                 <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M17.125 16.75L21.625 21.25" stroke="white" stroke-width="2"
-                                       stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                       d="M19.375 10C19.375 14.9706 15.3456 19 10.375 19C5.40443 19 1.375 14.9706 1.375 10C1.375 5.02943 5.40443 1 10.375 1C15.3456 1 19.375 5.02943 19.375 10Z"
-                                       stroke="white" stroke-width="2" />
-                                 </svg>
-                              </span>
-                           </button>
-                           <div class="divider-line"></div>
-                           <div class="header__hamburger">
-                              <div class="sidebar__toggle">
-                                 <a class="bar-icon is-white" href="javascript:void(0)">
-                                    <span></span>
-                                    <span>
-                                       <small></small>
-                                    </span>
-                                    <span></span>
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="header__hamburger d-lg-none">
-                     <div class="sidebar__toggle">
-                        <a class="bar-icon" href="javascript:void(0)">
-                           <span></span>
-                           <span>
-                              <small></small>
-                           </span>
-                           <span></span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </header>
+    <header>
+      <?php include 'assets/includes/header.php';   ?>
+    </header>
+    
    <!-- Header area end -->
 
    <!-- Body main wrapper start -->
@@ -637,7 +426,7 @@
    </section>
    <!-- Service area end -->
 
-   <!-- benefit area start -->
+   <!-- benefit area start 
    <section class="benefit-area section-space">
       <div class="container">
          <div class="row gy-50 wow fadeInUp" data-wow-delay=".3s">
@@ -766,7 +555,33 @@
          </div>
       </div>
    </section>
-   <!-- benefit area end -->
+    benefit area end -->
+
+    <section class="benefit-area section-space">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2> Misión</h2>
+                    <p style="text-align: justify;">
+                        En Luceros de la Salud brindamos servicios de enfermería especializados y humanizados, con un enfoque integral en la promoción, 
+                        mantenimiento y recuperación de la salud. Nos especializamos en atención domiciliaria, ofreciendo cuidados personalizados y de 
+                        alta calidad en el entorno del paciente. Nuestro equipo de profesionales actúa con ética, vocación y compromiso, contribuyendo 
+                        al bienestar individual y al fortalecimiento del sistema de salud con estándares de excelencia.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Visión</h2>
+                    <p style="text-align: justify;">
+                        Luceros de la Salud se posicionará como una empresa líder en servicios de enfermería domiciliaria a nivel nacional, destacando 
+                        por su excelencia en la atención, calidad humana e innovación en el cuidado de la salud. Nos proyectamos como un referente en 
+                        atención integral, comprometidos con la mejora continua y el desarrollo profesional de nuestro equipo, para contribuir al bienestar 
+                        y dignidad de nuestros pacientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
    <!-- Brand area start -->
    <div class="brand-area section-space-bottom">
@@ -1100,7 +915,7 @@
    </section>
    <!-- Blog area end -->
 
-   <!-- Newsletter area start -->
+   <!-- Newsletter area start 
    <section class="newsletter-area p-relative">
       <div class="newsletter-overlay theme-bg-3 "></div>
       <div class="container">
@@ -1137,133 +952,11 @@
          </div>
       </div>
    </section>
-   <!-- Newsletter area end -->
+    Newsletter area end -->
 
    <!-- Footer area start -->
    <footer>
-      <div class="footer-area footer-bg section-space-medium">
-         <div class="container">
-            <div class="row gy-50 justify-content-between">
-               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                  <div class="footer-widget footer-col-1">
-                     <div class="footer-logo mb-35">
-                        <a href="index.html"><img src="assets/imgs/logo/logo-white.svg" alt="image bnot found"></a>
-                     </div>
-                     <p>It helps designers plan out where the content will sit, the content to be written and approved.
-                     </p>
-                  </div>
-                  <div class="footer__opening d-flex align-items-start">
-                     <div class="footer-opening-icon mr-15">
-                        <span>
-                           <svg width="36" height="33" viewBox="0 0 36 33" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                 d="M33.3525 8.27969L28.1441 29.1907C27.7732 30.7516 26.3823 31.8335 24.7749 31.8335H4.4667C2.13296 31.8335 0.463822 29.546 1.1593 27.305L7.66595 6.40966C8.11415 4.95687 9.45877 3.95215 10.9734 3.95215H29.9833C31.4516 3.95215 32.6725 4.84856 33.1826 6.08498C33.4762 6.74955 33.538 7.50692 33.3525 8.27969Z"
-                                 stroke="#EB753B" stroke-width="2" stroke-miterlimit="10" />
-                              <path
-                                 d="M24.1895 31.8329H31.5771C33.5708 31.8329 35.1318 30.1482 34.9927 28.1545L33.4626 7.10449"
-                                 stroke="#EB753B" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                                 stroke-linejoin="round" />
-                              <path d="M14.4199 7.69318L16.0273 1.0166" stroke="#EB753B" stroke-width="2"
-                                 stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M24.7734 7.70752L26.2262 1" stroke="#EB753B" stroke-width="2"
-                                 stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M11.3594 16.3779H23.7236" stroke="#EB753B" stroke-width="2"
-                                 stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M9.81445 22.5596H22.1787" stroke="#EB753B" stroke-width="2"
-                                 stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
-                        </span>
-                     </div>
-                     <div class="footer-opening-content">
-                        <h4>Opening Hours</h4>
-                        <p>Mon – Sat 8:00 – 17:30 Sunday – CLOSED</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-sm-6">
-                  <div class="footer-widget footer-col-2">
-                     <div class="footer-widget-title">
-                        <h4>Quick Link</h4>
-                     </div>
-                     <div class="footer-link">
-                        <ul>
-                           <li><a href="#">Home</a></li>
-                           <li><a href="#">About</a></li>
-                           <li><a href="#">Service</a></li>
-                           <li><a href="#">Portfoilo</a></li>
-                           <li><a href="#">News</a></li>
-                           <li><a href="#">Contact</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="footer-widget footer-col-3">
-                     <div class="footer-widget-title">
-                        <h4>Support Desk</h4>
-                     </div>
-                     <div class="footer-link">
-                        <ul>
-                           <li><a href="#">Teams</a></li>
-                           <li><a href="#">Careers</a></li>
-                           <li><a href="#">How its work</a></li>
-                           <li><a href="#">Feedback</a></li>
-                           <li><a href="#">Technology</a></li>
-                           <li><a href="#">Privacy policy</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="footer-widget footer-col-4">
-                     <div class="footer-widget-title">
-                        <h4>Social</h4>
-                     </div>
-                     <div class="footer-info mb-35">
-                        <div class="footer-info-item d-flex align-items-start">
-                           <div class="footer-info-icon mr-20">
-                              <span> <i class="fa-solid fa-location-dot"></i></span>
-                           </div>
-                           <div class="footer-info-text">
-                              <a target="_blank"
-                                 href="https://www.google.com/maps/place/Orville+St,+La+Presa,+CA+91977,+USA/@32.7092048,-117.0082772,17z/data=!3m1!4b1!4m5!3m4!1s0x80d9508a9aec8cd1:0x72d1ac1c9527b705!8m2!3d32.7092003!4d-117.0060885">711-2880
-                                 Nulla St.</a>
-                           </div>
-                        </div>
-                        <div class="footer-info-item d-flex align-items-start">
-                           <div class="footer-info-icon mr-20">
-                              <span><i class="fa-solid fa-envelope"></i></span>
-                           </div>
-                           <div class="footer-info-text">
-                              <a href="mailto:example@gmail.com">example@gmail.com</a>
-                           </div>
-                        </div>
-                        <div class="footer-info-item d-flex align-items-start">
-                           <div class="footer-info-icon mr-20">
-                              <span><i class="fa-solid fa-phone"></i></span>
-                           </div>
-                           <div class="footer-info-text">
-                              <a href="tel:012-345-6789">+964 742 44 763</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="theme-social">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="fotter-bottom theme-bg-1 pt-25 pb-25">
-         <div class="footer-copyright-text text-center">
-            <p class="mb-0">© 2025 Luceros de la Salud </p>
-         </div>
-      </div>
+      <?php include 'assets/includes/footer.php'; ?>
    </footer>
    <!-- Footer area end -->
 
