@@ -3148,7 +3148,7 @@ body {
 }
 
 .header-logo {
-  max-width: 170px;
+  max-width: 230px;
 }
 @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-logo {

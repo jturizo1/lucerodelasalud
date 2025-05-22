@@ -25,10 +25,6 @@
 
 <body>
 
-   <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
-
    <!-- preloader start -->
    <div id="preloader">
       <div class="bd-loader-inner">
@@ -92,7 +88,7 @@
             <div class="offcanvas__content">
                <div class="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
                   <div class="offcanvas__logo">
-                     <a href="dashboard.html">
+                     <a href="#">
                         <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
                      </a>
                   </div>
@@ -165,32 +161,7 @@
 
    <!-- Body main wrapper start -->
    <main>
-      <section class="hero-section">
-         <!--<div class="hero-1 style-2">
-               
-            <div class="hero-bg bg-cover" style="background-image: url('assets/imgs/hero/hero-3.png');"></div>
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="hero-content">
-                            <h6>Welcome to Diagno</h6>
-                            <h1>
-                              Healing with heart and science.
-                            </h1>
-                            <p>
-                              Lorem ipsum dolor sit amet consectetur adipisng elit Ut et massa mi. Aliquam in hend.
-                            </p>
-                            <a href="appointment.html" class="fill-btn">
-                              <span class="fill-btn-inner">
-                                 <span class="fill-btn-normal">Explore Now<i class="fa-regular fa-angle-right"></i></span>
-                                 <span class="fill-btn-hover">Explore Now<i class="fa-regular fa-angle-right"></i></span>
-                              </span>
-                           </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
+      <section class="hero-section">         
         <video autoplay="" muted="" loop=""  width="100%" height="900px">
                <source src="assets/videos/Background.mp4" type="video/mp4">
                <source src="assets/videos/Background.mp4" type="video/webm">
@@ -201,27 +172,28 @@
    <!-- Body main wrapper end -->
 
    <!-- About area start -->
-   <section class="about-area p-relative section-space p-relative fix">
+   <section class="about-area p-relative section-space p-relative fix" id="nosotros">
       <div class="about__shape">
          <img src="assets/imgs/shapes/about-shapes.png" alt="">
       </div>
       <div class="container">
          <div class="row g-60 align-items-center">
             <div class="col-xxl-6 col-xl-6 col-lg-6">
-               <div class="about-thumb-wrapper-2 p-relative z-index-11 wow fadeInLeft animated" data-wow-delay="0.3s">
+               <div class="about-thumb-wrapper-2 p-relative z-index-11 wow fadeInLeft animated" data-wow-delay="0.3s"><!--
                   <div class="about-cercle">
                      <a class="popup-video round-cercle" href="https://www.youtube.com/watch?v=id_jX2HlMdc">
                         <span class="icon-box"><i class="fa-solid fa-play"></i></span>
                         <img class="image-text rotate-circle" src="assets/imgs/shapes/text-circle.png" alt="">
                      </a>
-                  </div>
+                  </div>-->
                   <div class="about-thumb w-img">
-                     <img src="assets/imgs/about/about-thumb-3.jpg" alt="">
+                     <video autoplay="" muted="" loop="" controls width="100%" height="700px">
+                        <source src="assets/videos/Nosotros.mp4" type="video/mp4">
+                        <source src="assets/videos/Nosotros.mp4" type="video/webm">
+                        Tu navegador no soporta la etiqueta de video HTML5.
+                    </video>
                   </div>
-                  <div class="about-experience">
-                     <h2>25+</h2>
-                     <p>Years of Experience in Medical Service</p>
-                  </div>
+                  
                </div>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -235,40 +207,13 @@
                      de nuestros pacientes. Nos proyectamos como líderes a nivel nacional en atención de calidad, con una fuerte orientación a la mejora continua, 
                      la innovación y el desarrollo profesional, siendo un referente en el cuidado de la salud con calidez y excelencia.</p>
                   
-                     <!-- Div Skills-->
-                    <!-- <div class="bd-skill__progress mt-35">
-                     <div class="bd-progress__skill-item fix">
-                        <h5>IDEA &amp; Concept</h5>
-                        <div class="progress">
-                           <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s"
-                              role="progressbar" data-width="70%" aria-valuenow="25" aria-valuemin="0"
-                              aria-valuemax="100"
-                              style="width: 70%; visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: slideInLeft;">
-                           </div>
-                        </div>
-                        <span class="progress-count">70%</span>
-                     </div>
-                     <div class="bd-progress__skill-item fix">
-                        <h5>Design Development Support</h5>
-                        <div class="progress">
-                           <div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s"
-                              role="progressbar" data-width="52%" aria-valuenow="25" aria-valuemin="0"
-                              aria-valuemax="100"
-                              style="width: 52%; visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: slideInLeft;">
-                           </div>
-                        </div>
-                        <span class="progress-count">52%</span>
-                     </div>
-                  </div>-->
-                   <!-- Div Skills-->
-
-                  <div class="button-wrapper mt-45">
-                     <a href="about.html" class="fill-btn secondary">
-                        <span class="fill-btn-inner">
-                           <span class="fill-btn-normal">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
-                           <span class="fill-btn-hover">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
-                        </span>
-                     </a>
+                    <div class="button-wrapper mt-45">
+                        <a href="#" class="fill-btn secondary">
+                            <span class="fill-btn-inner">
+                            <span class="fill-btn-normal">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
+                            <span class="fill-btn-hover">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
+                            </span>
+                        </a>
                      <div class="link-text">
                         <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
                         <a href="#">+57 305 789 7369</a>
@@ -282,7 +227,7 @@
    <!-- About area end -->
 
    <!-- Service area start -->
-   <section class="service-area p-relative fix">
+   <section class="service-area p-relative fix" id="servicios">
       <div class="service-bg">
          <div class="service-bg-thumb include-bg" data-background="assets/imgs/bg/service-bg.png"></div>
       </div>
@@ -292,10 +237,7 @@
                <div class="col-xxl-12">
                   <div class="title-inner mb-15 d-flex align-items-end">
                      <h2 style="padding-bottom: 30px;" class="service-title p-relative">Nuestros Servicios</h2>
-                     <div class="health-icon-2 d-none d-md-block"><!--
-                        <span>
-                           <img src="assets/imgs/icons/medicle.png" alt="">
-                        </span> -->
+                     <div class="health-icon-2 d-none d-md-block">
                      </div>
                   </div>
                </div>
@@ -316,17 +258,7 @@
                         </center>
                      </div>
                   </div>
-                  <!--
-                  <div class="title-wrapper">
-                     <p style="text-align: justify;" class="mb-0">En Luceros de la Salud ofrecemos una amplia gama de servicios de enfermería domiciliaria, diseñados para brindar atención 
-                        personalizada, ética y de alta calidad en el entorno más cómodo para el paciente: su hogar. Nuestro equipo de profesionales está capacitado
-                        para atender necesidades de promoción, mantenimiento y recuperación de la salud, con un enfoque integral y humano. Desde cuidados postoperatorios,
-                        control de signos vitales y administración de medicamentos, hasta acompañamiento en procesos crónicos o paliativos, garantizamos un servicio 
-                        comprometido con el bienestar, la dignidad y la tranquilidad de cada persona y su familia.</p>
-                     <h2 class="service-title">Servicios de</h2>
-                  </div>
-                  -->
-               </div>
+                </div>
             </div>
             <div style="padding-top: 30px;" class="row">
                <div class="col-xxl-12">
@@ -334,7 +266,7 @@
                      <div class="section-title-wrapper-2 is-white">
                         <span class="section-subtitle-2">Our benefit</span>
                      </div>
-                     <a href="service-details.html" class="fill-btn secondary">
+                     <a href="#" class="fill-btn secondary">
                         <span class="fill-btn-inner">
                            <span class="fill-btn-normal">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
                            <span class="fill-btn-hover">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
@@ -346,20 +278,19 @@
          </div>
       </div>
       <div class="service-grid wow fadeInUp" data-wow-delay="0.3s">
-         <div class="service-item-2"><!--
-            <div class="service__thumb-2" data-background="assets/imgs/service/service-04.jpg"></div>-->
+         <div class="service-item-2">
             <div class="service-icon-2 mb-25">
                <span>
                   <img src="assets/imgs/service/icon/1/service-1.png" alt="">
                   <img src="assets/imgs/service/icon/1/service-2-1.png" alt="">
                </span>
             </div>
-            <h5 class="service-title-2"><a href="service-details.html">HOSPITALIZACIÓN</a></h5>
+            <h5 class="service-title-2"><a href="#">HOSPITALIZACIÓN</a></h5>
             <div class="service-bottom-content">
                <p style="text-align: justify;">Brindamos atención especializada en el hogar para pacientes que requieren cuidados hospitalarios sin necesidad de permanecer en una clínica. 
                   Nuestro servicio de hospitalización domiciliaria incluye monitoreo constante, administración de tratamientos, control de signos vitales y 
                   seguimiento médico, todo en un entorno familiar y seguro, promoviendo una recuperación más cómoda y humanizada.</p>
-               <a class="round-link" href="service-details.html"><i class="fa-regular fa-angle-right"></i></a>
+               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
             </div>
          </div>
          <div class="service-item-2">
@@ -369,12 +300,12 @@
                   <img src="assets/imgs/service/icon/1/service-2-2.png" alt="">
                </span>
             </div>
-            <h5 class="service-title-2"><a href="service-details.html">TRÁMITES ANTE EPS</a></h5>
+            <h5 class="service-title-2"><a href="#">TRÁMITES ANTE EPS</a></h5>
             <div class="service-bottom-content">
                <p style="text-align: justify;">En Luceros de la Salud acompañamos a nuestros pacientes y sus familias en la gestión de trámites ante las EPS, facilitando autorizaciones, 
                   renovación de servicios y seguimiento de procesos administrativos. Nuestro equipo está capacitado para brindar orientación clara y oportuna, 
                   aliviando la carga burocrática y asegurando el acceso oportuno a los servicios de salud requeridos.</p>
-               <a class="round-link" href="service-details.html"><i class="fa-regular fa-angle-right"></i></a>
+               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
             </div>
          </div>
          <div class="service-item-2">
@@ -384,12 +315,12 @@
                   <img src="assets/imgs/service/icon/1/service-2-3.png" alt="">
                </span>
             </div>
-            <h5 class="service-title-2"><a href="service-details.html">ADMINISTRACIÓN DE MEDICAMENTOS</a></h5>
+            <h5 class="service-title-2"><a href="#">ADMINISTRACIÓN DE MEDICAMENTOS</a></h5>
             <div class="service-bottom-content">
                <p style="text-align: justify;">Ofrecemos un servicio seguro y profesional de administración de medicamentos en el hogar, garantizando el cumplimiento de tratamientos médicos 
                   con precisión y responsabilidad. Nuestro personal de enfermería se encarga de aplicar medicamentos por vía oral, intravenosa, intramuscular y subcutánea, 
                   asegurando la correcta dosificación, horarios y registro, con el fin de proteger la salud y bienestar del paciente.</p>
-               <a class="round-link" href="service-details.html"><i class="fa-regular fa-angle-right"></i></a>
+               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
             </div>
          </div>
          <div class="service-item-2">
@@ -399,12 +330,12 @@
                   <img src="assets/imgs/service/icon/1/service-2-4.png" alt="">
                </span>
             </div>
-            <h5 class="service-title-2"><a href="service-details.html">CAPACITACIÓNES</a></h5>
+            <h5 class="service-title-2"><a href="#">ACOMPAÑAMIENTOS</a></h5>
             <div class="service-bottom-content">
                <p style="text-align: justify;">Brindamos orientación y formación a familiares de pacientes con Alzheimer, demencias y esquizofrenia, con el objetivo de fortalecer sus habilidades 
                   para el cuidado diario. A través de sesiones prácticas y asesoría especializada, enseñamos estrategias para el manejo de síntomas, comunicación efectiva 
                   y contención emocional, promoviendo un entorno más seguro, comprensivo y digno tanto para el paciente como para su núcleo familiar.</p>
-               <a class="round-link" href="service-details.html"><i class="fa-regular fa-angle-right"></i></a>
+               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
             </div>
          </div>
          <div class="service-item-2">
@@ -414,154 +345,23 @@
                   <img src="assets/imgs/service/icon/1/service-2-5.png" alt="">
                </span>
             </div>
-            <h5 class="service-title-2"><a href="service-details.html">RECOGIDA DE MEDICAMENTOS</a></h5>
+            <h5 class="service-title-2"><a href="#">TRAMITES DE MEDICAMENTOS</a></h5>
             <div class="service-bottom-content">
                <p style="text-align: justify;">En Luceros de la Salud facilitamos la recogida de medicamentos en farmacias y entidades de salud, garantizando que nuestros pacientes reciban sus tratamientos
                    de manera oportuna y segura. Este servicio está pensado para apoyar a quienes enfrentan barreras de movilidad o tiempo, asegurando continuidad en el tratamiento
                    sin complicaciones ni demoras.</p>
-               <a class="round-link" href="service-details.html"><i class="fa-regular fa-angle-right"></i></a>
+               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
             </div>
          </div>
       </div>
    </section>
    <!-- Service area end -->
-
-   <!-- benefit area start 
-   <section class="benefit-area section-space">
-      <div class="container">
-         <div class="row gy-50 wow fadeInUp" data-wow-delay=".3s">
-            <div class="col-xxl-6 col-xl-6 col-lg-6">
-               <div class="benefit-content-wrap bd-sticky">
-                  <div class="section-title-wrapper-2 mb-15">
-                     <span class="section-subtitle-2 mb-25">Our benefit</span>
-                     <h2 class="section-title">Best Provide <br> Health Care</h2>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisng elit Ut et massa mi. Aliquam in hendrerit urna.
-                     Pellentesque sit amet sapiengilla</p>
-                  <div class="button-wrapper mt-45">
-                     <a href="service-details.html" class="fill-btn">
-                        <span class="fill-btn-inner">
-                           <span class="fill-btn-normal">Know More<i class="fa-regular fa-angle-right"></i></span>
-                           <span class="fill-btn-hover">Know More<i class="fa-regular fa-angle-right"></i></span>
-                        </span>
-                     </a>
-                     <div class="link-text">
-                        <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
-                        <a href="tel:+380961381876">+380961381876</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-xxl-6 col-xl-6 col-lg-6">
-               <div class="faq-wrapper">
-                  <div class="bd-faq">
-                     <div class="accordion" id="accordionExample-st-2">
-                        <div class="bd-faq-group">
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingOne-st-2">
-                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne-st-2" aria-expanded="false"
-                                    aria-controls="collapseOne-st-2">
-                                    <span class="accordion-number">01</span>
-                                    Wound healing genes
-                                 </button>
-                              </h2>
-                              <div id="collapseOne-st-2" class="accordion-collapse collapse"
-                                 aria-labelledby="headingOne-st-2" data-bs-parent="#accordionExample-st-2">
-                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingTwo-st-2">
-                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo-st-2" aria-expanded="true"
-                                    aria-controls="collapseTwo-st-2">
-                                    <span class="accordion-number">02</span>
-                                    Blood clotting disorder
-                                 </button>
-                              </h2>
-                              <div id="collapseTwo-st-2" class="accordion-collapse collapse show"
-                                 aria-labelledby="headingTwo-st-2" data-bs-parent="#accordionExample-st-2">
-                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingThree-st-2">
-                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree-st-2" aria-expanded="false"
-                                    aria-controls="collapseThree-st-2">
-                                    <span class="accordion-number">03</span>
-                                    Studies of genetic
-                                 </button>
-                              </h2>
-                              <div id="collapseThree-st-2" class="accordion-collapse collapse"
-                                 aria-labelledby="headingThree-st-2" data-bs-parent="#accordionExample-st-2">
-                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingFour-st-2">
-                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour-st-2" aria-expanded="false"
-                                    aria-controls="collapseFour-st-2">
-                                    <span class="accordion-number">04</span>
-                                    Generics strategies
-                                 </button>
-                              </h2>
-                              <div id="collapseFour-st-2" class="accordion-collapse collapse"
-                                 aria-labelledby="headingFour-st-2" data-bs-parent="#accordionExample-st-2">
-                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="accordion-item">
-                              <h2 class="accordion-header" id="headingFive-st-2">
-                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive-st-2" aria-expanded="false"
-                                    aria-controls="collapseFive-st-2">
-                                    <span class="accordion-number">05</span>
-                                    Studies of genetic
-                                 </button>
-                              </h2>
-                              <div id="collapseFive-st-2" class="accordion-collapse collapse"
-                                 aria-labelledby="headingFive-st-2" data-bs-parent="#accordionExample-st-2">
-                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-    benefit area end -->
-
-    <section class="benefit-area section-space">
+   <!-- Service area end -->
+    <section class="benefit-area section-space" id="mision">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2> Misión</h2>
+                    <h2 style="text-align: center"> Misión</h2><br>
                     <p style="text-align: justify;">
                         En Luceros de la Salud brindamos servicios de enfermería especializados y humanizados, con un enfoque integral en la promoción, 
                         mantenimiento y recuperación de la salud. Nos especializamos en atención domiciliaria, ofreciendo cuidados personalizados y de 
@@ -570,7 +370,7 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <h2>Visión</h2>
+                    <h2 style="text-align: center">Visión</h2><br>
                     <p style="text-align: justify;">
                         Luceros de la Salud se posicionará como una empresa líder en servicios de enfermería domiciliaria a nivel nacional, destacando 
                         por su excelencia en la atención, calidad humana e innovación en el cuidado de la salud. Nos proyectamos como un referente en 
@@ -580,43 +380,7 @@
                 </div>
             </div>
         </div>
-
     </section>
-
-   <!-- Brand area start -->
-   <div class="brand-area section-space-bottom">
-      <div class="container">
-         <div class="brand-grid">
-            <div class="brand-item">
-               <div class="brand-thumb">
-                  <img src="assets/imgs/brand/brand-01.png" alt="">
-               </div>
-            </div>
-            <div class="brand-item">
-               <div class="brand-thumb">
-                  <img src="assets/imgs/brand/brand-02.png" alt="">
-               </div>
-            </div>
-            <div class="brand-item">
-               <div class="brand-thumb">
-                  <img src="assets/imgs/brand/brand-03.png" alt="">
-               </div>
-            </div>
-            <div class="brand-item">
-               <div class="brand-thumb">
-                  <img src="assets/imgs/brand/brand-04.png" alt="">
-               </div>
-            </div>
-            <div class="brand-item">
-               <div class="brand-thumb">
-                  <img src="assets/imgs/brand/brand-05.png" alt="">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- Brand area end -->
-
    <!-- Testimonial area start -->
    <section class="testimonial-area section-space p-relative">
       <div class="testimonial-bg">
@@ -718,20 +482,20 @@
    <!-- Testimonial area end -->
 
    <!-- Team area start -->
-   <section class="team-area border-up section-space">
+   <section class="team-area border-up section-space" id="equipo">
       <div class="container">
          <div class="row gy-5">
             <div class="col-xxl-4 col-xl-4 col-lg-4">
                <div class="section-title-wrapper">
                   <div class="section-subtitle">
-                     <span>Our team</span>
+                     <span>Nuestro Equipo</span>
                   </div>
-                  <h2 class="section-title mb-25">Meet Our Expert Team</h2>
-                  <p class="mb-35">Lorem ipsum dolor sit amet consectetur adipisng elit Ut et massa mi. Aliquam</p>
-                  <a href="doctor-details.html" class="fill-btn">
+                  <h2 class="section-title mb-25">Conoce a Nuestro Equipo de Expertos</h2>
+                  <p class="mb-35">Contamos con personal altamente capacitado.</p>
+                  <a href="#" class="fill-btn">
                      <span class="fill-btn-inner">
-                        <span class="fill-btn-normal">contact us<i class="fa-regular fa-angle-right"></i></span>
-                        <span class="fill-btn-hover">contact us<i class="fa-regular fa-angle-right"></i></span>
+                        <span class="fill-btn-normal">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
+                        <span class="fill-btn-hover">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
                      </span>
                   </a>
                </div>
@@ -739,13 +503,13 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4">
                <div class="team-item text-center">
                   <div class="team-thumb fix">
-                     <a href="doctor-details.html">
-                        <img src="assets/imgs/team/team-01.jpg" alt="">
+                     <a href="#">
+                        <img src="assets/imgs/team/team-01.jpg" alt="imagen">
                      </a>
                   </div>
                   <div class="team-content">
-                     <h3 class="team-title"><a href="doctor-details.html">Keith Griffin</a></h3>
-                     <p>edical services required on the spot e.g. for medical</p>
+                     <h3 class="team-title"><a href="#">María Garzón</a></h3>
+                     <p>Enfermera Jefe, con amplia experiencia en el área de la salud.</p>
                      <div class="team-social d-flex justify-content-center gap-3">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -757,12 +521,12 @@
             <div class="col-xxl-4 col-xl-4 col-lg-4">
                <div class="team-item text-center">
                   <div class="team-thumb fix">
-                     <a href="doctor-details.html">
+                     <a href="#">
                         <img src="assets/imgs/team/team-02.jpg" alt="">
                      </a>
                   </div>
                   <div class="team-content">
-                     <h3 class="team-title"><a href="doctor-details.html">Marie Martinez</a></h3>
+                     <h3 class="team-title"><a href="#">Marie Martinez</a></h3>
                      <p>edical services required on the spot e.g. for medical</p>
                      <div class="team-social d-flex justify-content-center gap-3">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -776,184 +540,6 @@
       </div>
    </section>
    <!-- Team area end -->
-
-   <!-- Intro area star -->
-   <div class="intro-area section-space p-relative">
-      <div class="intro-bg">
-         <div class="intro-bg-thumb include-bg" data-background="assets/imgs/bg/intro-bg.png"></div>
-      </div>
-      <div class="container">
-         <div class="row justify-content-center">
-            <div class="col-xxl-7 col-xl-9 col-lg-10">
-               <div class="section-title-wrapper is-white text-center wow fadeInUp" data-wow-delay="0.3s">
-                  <h2 class="section-title section-title-spacing">Take charge of your health today & schedule a
-                     consultation</h2>
-                  <a href="appointment.html" class="fill-btn secondary">
-                     <span class="fill-btn-inner">
-                        <span class="fill-btn-normal">book appointment<i class="fa-regular fa-angle-right"></i></span>
-                        <span class="fill-btn-hover">book appointment<i class="fa-regular fa-angle-right"></i></span>
-                     </span>
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- Intro area end -->
-
-   <!-- Blog area sart -->
-   <section class="blog-area section-space">
-      <div class="container">
-         <div class="row gy-50">
-            <div class="col-xxl-4 col-xl-4 col-lg-4">
-               <div class="blog-content bd-sticky">
-                  <div class="section-title-wrapper-2 mb-15">
-                     <span class="section-subtitle-2 mb-25">Our blog</span>
-                     <h2 class="section-title">Read Our Recent Blog</h2>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisng elit Ut et massa mi. Aliquam in hendrerit urna.
-                     Pellentesque sit amet sapiengilla</p>
-                  <div class="button-wrapper mt-40">
-                     <a href="blog-grid.html" class="fill-btn secondary">
-                        <span class="fill-btn-inner">
-                           <span class="fill-btn-normal">view all blog<i class="fa-regular fa-angle-right"></i></span>
-                           <span class="fill-btn-hover">view all blog<i class="fa-regular fa-angle-right"></i></span>
-                        </span>
-                     </a>
-                     <div class="link-text">
-                        <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
-                        <a href="tel:+380961381876">+380961381876</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-xxl-8 col-xl-8 col-lg-8">
-               <div class="blog-content-wrapper">
-                  <div class="blog-content-box wow fadeInUp" data-wow-delay="0.3s">
-                     <div class="blog-content-item">
-                        <div class="blog-content-content">
-                           <div class="postbox__meta mb-20">
-                              <span class="postbox__tag"><a class="postbox__tag-unfill"
-                                    href="blog-details.html">Healthcare</a></span>
-                              <span>Mar 02, 2024</span>
-                           </div>
-                           <h4 class="blog-content-title"><a href="blog-details.html">Lack of sleep can lead to
-                                 irritability, mood swings, and even depression. A restful night's sleep helps stabilize
-                                 your emotions and reduces stress</a></h4>
-                           <div class="blog-content-thumb">
-                              <img src="assets/imgs/blog/blog-3.jpg" alt="">
-                           </div>
-                        </div>
-                        <div class="blog-content-link">
-                           <a class="round-link" href="blog-details.html"><i class="fa-regular fa-angle-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="blog-content-box wow fadeInUp" data-wow-delay="0.5s">
-                     <div class="blog-content-item">
-                        <div class="blog-content-content">
-                           <div class="postbox__meta mb-20">
-                              <span class="postbox__tag"><a class="postbox__tag-unfill"
-                                    href="blog-details.html">Medicine</a></span>
-                              <span>Mar 12, 2024</span>
-                           </div>
-                           <h4 class="blog-content-title"><a href="blog-details.html">Athletes understand the value of
-                                 sleep. It aids in muscle recovery and coordination, improving overall athletic
-                                 performance</a></h4>
-                           <div class="blog-content-thumb">
-                              <img src="assets/imgs/blog/blog-3.jpg" alt="">
-                           </div>
-                        </div>
-                        <div class="blog-content-link">
-                           <a class="round-link" href="blog-details.html"><i class="fa-regular fa-angle-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="blog-content-box wow fadeInUp" data-wow-delay="0.7s">
-                     <div class="blog-content-item">
-                        <div class="blog-content-content">
-                           <div class="postbox__meta mb-20">
-                              <span class="postbox__tag"><a class="postbox__tag-unfill"
-                                    href="blog-details.html">Dentistry</a></span>
-                              <span>Mar 15, 2024</span>
-                           </div>
-                           <h4 class="blog-content-title"><a href="blog-details.html">Avoid heavy meals, caffeine, and
-                                 alcohol close to bedtime. These can disrupt your sleep patterns</a></h4>
-                           <div class="blog-content-thumb">
-                              <img src="assets/imgs/blog/blog-3.jpg" alt="">
-                           </div>
-                        </div>
-                        <div class="blog-content-link">
-                           <a class="round-link" href="blog-details.html"><i class="fa-regular fa-angle-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="blog-content-box wow fadeInUp" data-wow-delay="0.9s">
-                     <div class="blog-content-item">
-                        <div class="blog-content-content">
-                           <div class="postbox__meta mb-20">
-                              <span class="postbox__tag"><a class="postbox__tag-unfill"
-                                    href="blog-details.html">Pharmacy</a></span>
-                              <span>Mar 23, 2024</span>
-                           </div>
-                           <h4 class="blog-content-title"><a href="blog-details.html">Ensure your bedroom is dark,
-                                 quiet, and at a comfortable temperature. Invest in a comfortable mattress and
-                                 pillows</a></h4>
-                           <div class="blog-content-thumb">
-                              <img src="assets/imgs/blog/blog-3.jpg" alt="">
-                           </div>
-                        </div>
-                        <div class="blog-content-link">
-                           <a class="round-link" href="blog-details.html"><i class="fa-regular fa-angle-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- Blog area end -->
-
-   <!-- Newsletter area start 
-   <section class="newsletter-area p-relative">
-      <div class="newsletter-overlay theme-bg-3 "></div>
-      <div class="container">
-         <div class="newsletter-grid p-relative">
-            <div class="intro-bg">
-               <div class="intro-bg-thumb include-bg" data-background="assets/imgs/bg/intro-bg.png"></div>
-            </div>
-            <div class="row gy-4 align-items-center">
-               <div class="col-xxl-6 col-xl-6 col-lg-6">
-                  <div class="newsletter-content">
-                     <h3 class="newsletter-title">Subscribe to Our News Letter</h3>
-                  </div>
-               </div>
-               <div class="col-xxl-6 col-xl-6 col-lg-6">
-                  <div class="newsletter-form">
-                     <form action="#">
-                        <div class="newsletter-input p-relative">
-                           <input type="text" placeholder="Enter Email Address">
-                           <button class="fill-btn" type="submit">
-                              <span class="fill-btn-inner">
-                                 <span class="fill-btn-normal">Subscribe Us</span>
-                                 <span class="fill-btn-hover">Subscribe Us</span>
-                              </span>
-                              <span class="fill-btn-inner">
-                                 <span class="fill-btn-normal"><i class="fa-light fa-bell-on"></i></span>
-                                 <span class="fill-btn-hover"><i class="fa-light fa-bell-on"></i></span>
-                              </span>
-                           </button>
-                        </div>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-    Newsletter area end -->
-
    <!-- Footer area start -->
    <footer>
       <?php include 'assets/includes/footer.php'; ?>
