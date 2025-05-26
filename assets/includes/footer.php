@@ -51,7 +51,7 @@
          <div class="col-md-3">
             <div class="footer-widget footer-col-4">
                      <div class="footer-widget-title">
-                        <h4>Social</h4>
+                        <h4>Información de Contacto</h4>
                      </div>
                      <div class="footer-info mb-35">
                         

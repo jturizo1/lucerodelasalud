@@ -47,7 +47,7 @@
                     <span><a href="#">+57 305 789 7369</a></span>
                 </div>
                 </div-->
-                <div class="header-quick-access d-flex align-items-center">
+                <div class="header-quick-access d-flex align-items-center"><!--
                     <button class="search-toggle-open header-search">
                         <span>
                             <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -59,7 +59,7 @@
                                 stroke="white" stroke-width="2" />
                             </svg>
                         </span>
-                    </button>
+                    </button>-->
                     <div class="divider-line"></div>
                     <div class="header__hamburger">
                         <div class="sidebar__toggle">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 </div>
-            </div>
+            </div> 
             <div class="header__hamburger d-lg-none">
                 <div class="sidebar__toggle">
                 <a class="bar-icon" href="javascript:void(0)">

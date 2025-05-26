@@ -43,14 +43,48 @@
    <!-- preloader start -->
 
    <!-- Back to top start -->
-   <div class="backtotop-wrap cursor-pointer">
+    
+   <div style="position: fixed;" class="backtotop-wrap cursor-pointer">
       <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
       </svg>
    </div>
+
+   <a href="https://wa.me/+573057897369" 
+      class="whatsapp-float" 
+      target="_blank" 
+      title="Chatea con nosotros en WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" 
+         alt="WhatsApp" />
+   </a>
+
+   <style>
+      .whatsapp-float {
+         position: fixed;
+         width: 45px;
+         height: 45px;
+         top: 85%;
+         right: 30px;
+         transform: translateY(-50%);
+         background-color: #25d366;
+         color: white;
+         border-radius: 50%;
+         text-align: center;
+         box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+         z-index: 1000;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .whatsapp-float img {
+      width: 30px;
+      height: 30px;
+      }
+</style>
    <!-- Back to top end -->
 
-   <!-- search area start -->
+   <!-- search area start 
    <div class="df-search-area">
       <div class="container">
          <div class="row">
@@ -79,7 +113,7 @@
       </div>
    </div>
    <div class="body-overlay"></div>
-   <!-- search area end -->
+   search area end -->
 
    <!-- Offcanvas area start -->
    <div class="fix">
@@ -87,11 +121,12 @@
          <div class="offcanvas__wrapper">
             <div class="offcanvas__content">
                <div class="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
+                  <!--
                   <div class="offcanvas__logo">
                      <a href="#">
                         <img src="assets/imgs/logo/logo-white.svg" alt="logo not found">
                      </a>
-                  </div>
+                  </div>-->
                   <div class="offcanvas__close">
                      <button>
                         <i class="fal fa-times"></i>
@@ -110,20 +145,10 @@
                   <ul>
                      <li class="d-flex align-items-center">
                         <div class="offcanvas__contact-icon mr-15">
-                           <i class="fal fa-map-marker-alt"></i>
-                        </div>
-                        <div class="offcanvas__contact-text">
-                           <a target="_blank"
-                              href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">12/A,
-                              Mirnada City Tower, NYC</a>
-                        </div>
-                     </li>
-                     <li class="d-flex align-items-center">
-                        <div class="offcanvas__contact-icon mr-15">
                            <i class="far fa-phone"></i>
                         </div>
                         <div class="offcanvas__contact-text">
-                           <a href="tel:+088889797697">+088889797697</a>
+                           <a href="#">+57 305 789 7369</a>
                         </div>
                      </li>
                      <li class="d-flex align-items-center">
@@ -131,14 +156,14 @@
                            <i class="fal fa-envelope"></i>
                         </div>
                         <div class="offcanvas__contact-text">
-                           <a href="tel:+012-345-6789"><span class="mailto:support@mail.com">support@mail.com</span></a>
+                           <a href="#"><span class="">lucerosdelasalud25@gmail.com</span></a>
                         </div>
                      </li>
                   </ul>
                </div>
                <div class="offcanvas__social">
                   <ul>
-                     <li><a href="https://www.facebook.com/profile.php?id=61567320609061"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61567320609061"><i class="fab fa-facebook-f"></i></a></li>
                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
