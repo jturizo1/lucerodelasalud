@@ -12,6 +12,14 @@
    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/favicon.svg">
 
    <!-- CSS here -->
+    <!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <link rel="stylesheet" href="assets/css/estilo.css">
    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
    <link rel="stylesheet" href="assets/css/animate.css">
@@ -50,38 +58,13 @@
       </svg>
    </div>
 
-   <a href="https://wa.me/+573057897369" 
-      class="whatsapp-float" 
-      target="_blank" 
-      title="Chatea con nosotros en WhatsApp">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" 
-         alt="WhatsApp" />
+<!-- Icono de Whatsapp -->
+   <a href="https://wa.me/+573057897369" class="whatsapp-float" target="_blank" title="Chatea con nosotros en WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" />
    </a>
 
-   <style>
-      .whatsapp-float {
-         position: fixed;
-         width: 45px;
-         height: 45px;
-         top: 85%;
-         right: 30px;
-         transform: translateY(-50%);
-         background-color: #25d366;
-         color: white;
-         border-radius: 50%;
-         text-align: center;
-         box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-         z-index: 1000;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-      }
+<!-- Icono de Whatsapp -->
 
-      .whatsapp-float img {
-      width: 30px;
-      height: 30px;
-      }
-</style>
    <!-- Back to top end -->
 
    <!-- search area start 
@@ -288,8 +271,8 @@
             <div style="padding-top: 30px;" class="row">
                <div class="col-xxl-12">
                   <div class="service-btn-wrapper">
-                     <div class="section-title-wrapper-2 is-white">
-                        <span class="section-subtitle-2">Our benefit</span>
+                     <div class="section-title-wrapper-2 is-white"><!--
+                        <span class="section-subtitle-2">Our benefit</span>-->
                      </div>
                      <a href="#" class="fill-btn secondary">
                         <span class="fill-btn-inner">
@@ -517,12 +500,12 @@
                   </div>
                   <h2 class="section-title mb-25">Conoce a Nuestro Equipo de Expertos</h2>
                   <p class="mb-35">Contamos con personal altamente capacitado.</p>
-                  <a href="#" class="fill-btn">
-                     <span class="fill-btn-inner">
+                  <!--<a href="#" class="fill-btn">
+                      <span class="fill-btn-inner">
                         <span class="fill-btn-normal">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
                         <span class="fill-btn-hover">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
                      </span>
-                  </a>
+                  </a>-->
                </div>
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-4">
@@ -533,13 +516,17 @@
                      </a>
                   </div>
                   <div class="team-content">
-                     <h3 class="team-title"><a href="#">María Garzón</a></h3>
-                     <p>Enfermera Jefe, con amplia experiencia en el área de la salud.</p>
-                     <div class="team-social d-flex justify-content-center gap-3">
+                     <h3 class="team-title"><a href="#">Maria Angélica Garzón Martínez</a></h3>
+                     <p>Auxiliar de enfermería.</p>
+                     <button onclick="perfil1()">Ver mas...</button>
+
+
+
+                    <!-- <div class="team-social d-flex justify-content-center gap-3">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                     </div>
+                     </div> -->
                   </div>
                </div>
             </div>
@@ -551,13 +538,15 @@
                      </a>
                   </div>
                   <div class="team-content">
-                     <h3 class="team-title"><a href="#">Marie Martinez</a></h3>
-                     <p>edical services required on the spot e.g. for medical</p>
+                     <h3 class="team-title"><a href="#">Juan Sebastián Pineda Garzón  </a></h3>
+                     <p>Jefe de enfermería.</p>
+                     <button onclick="perfil2()">Ver mas...</button>
+                     <!--
                      <div class="team-social d-flex justify-content-center gap-3">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                     </div>
+                     </div> -->
                   </div>
                </div>
             </div>
@@ -584,6 +573,7 @@
    <script src="assets/js/ajax-form.js"></script>
    <script src="assets/js/beforeafter.jquery-1.0.0.min.js"></script>
    <script src="assets/js/main.js"></script>
+   <script src="assets/js/eventos.js"></script>
 </body>
 
 </html>
