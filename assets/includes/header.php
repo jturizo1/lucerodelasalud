@@ -12,21 +12,13 @@
                 <div class="main-menu">
                     <nav id="mobile-menu">
                         <ul>
-                            <li>
-                                <a href="#">Inicio</a>
-                            </li>
-                            <li>
-                                <a href="#nosotros">Nosotros</a>
-                            </li>
-                            <li>
-                                <a href="#servicios">Servicios</a>
-                            </li>
-                            <li>
-                                <a href="#mision">Misión & Visión</a>
-                            </li>
-                            <li>
-                                <a href="#equipo">Equipo</a>
-                            </li>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#mision">Misión & Visión</a></li>
+                            <li><a href="#equipo">Nuestro Equipo</a></li>
+                            <li><a href="#equipo">Capacitaciones</a></li>
+                            <li><a href="#equipo">Ingreso</a></li>
                         </ul>
                     </nav>
                     <!-- for wp -->
@@ -44,7 +36,7 @@
                 <div class="header-action d-none d-lg-inline-flex gap-3 ">
                 <div class="link-text d-none d-xxl-block">
                     <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
-                    <span><a href="#">+57 305 789 7369</a></span>
+                    <span><a href="https://wa.me/+573057897369">+57 305 789 7369</a></span>
                 </div>
                 </div-->
                 <div class="header-quick-access d-flex align-items-center"><!--
