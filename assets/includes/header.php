@@ -12,7 +12,7 @@
                 <div class="main-menu">
                     <nav id="mobile-menu">
                         <ul>
-                            <li class="has-dropdown active menu-thumb">
+                            <li>
                                 <a href="#">Inicio</a>
                             </li>
                             <li>
