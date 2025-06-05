@@ -59,7 +59,7 @@
    </div>
 
 <!-- Icono de Whatsapp -->
-   <a href="https://wa.me/+573057897369" class="whatsapp-float" target="_blank" title="Chatea con nosotros en WhatsApp">
+   <a href="https://wa.link/1mnyiv" class="whatsapp-float" target="_blank" title="Chatea con nosotros en WhatsApp">
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" />
    </a>
 
