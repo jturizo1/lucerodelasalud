@@ -36,7 +36,7 @@
                 <div class="header-action d-none d-lg-inline-flex gap-3 ">
                 <div class="link-text d-none d-xxl-block">
                     <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
-                    <span><a href="https://wa.me/+573057897369">+57 305 789 7369</a></span>
+                    <span><a href="https://wa.link/1mnyiv">+57 305 789 7369</a></span>
                 </div>
                 </div-->
                 <div class="header-quick-access d-flex align-items-center"><!--

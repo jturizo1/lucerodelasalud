@@ -68,7 +68,7 @@
                               <span><i class="fa-solid fa-phone"></i></span>
                            </div>
                            <div class="footer-info-text">
-                              <a href="https://wa.me/+573057897369">+57 305 7897 369</a>
+                              <a href="https://wa.link/1mnyiv">+57 305 7897 369</a>
                            </div>
                         </div>
                      </div>
