@@ -17,8 +17,8 @@
                             <li><a href="#servicios">Servicios</a></li>
                             <li><a href="#mision">Misión & Visión</a></li>
                             <li><a href="#equipo">Nuestro Equipo</a></li>
-                            <li><a href="#equipo">Capacitaciones</a></li>
-                            <li><a href="#equipo">Ingreso</a></li>
+                            <li><a href="#capacitaciones">Capacitaciones</a></li>
+                            <li><a href="../../App/Users/Login/index.php" target="_blank">Ingreso</a></li>
                         </ul>
                     </nav>
                     <!-- for wp -->
@@ -36,7 +36,7 @@
                 <div class="header-action d-none d-lg-inline-flex gap-3 ">
                 <div class="link-text d-none d-xxl-block">
                     <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
-                    <span><a href="https://wa.link/1mnyiv">+57 305 789 7369</a></span>
+                    <span><a href="https://wa.link/1mnyiv" target="_blank">+57 305 7897369</a></span>
                 </div>
                 </div-->
                 <div class="header-quick-access d-flex align-items-center"><!--

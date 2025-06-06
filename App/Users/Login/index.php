@@ -30,14 +30,14 @@
 <body>
 <?php
 session_start();
-include 'App/str_conex.php';
+include '../../BD_Con/str_conex.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 	{
 		$username = $_POST['username'];
 		$password = md5($_POST['password']);
 
-		$sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
+		$sql = "SELECT * FROM users WHERE username='$username' AND passwordkey='$password'";
 		$result = mysqli_query($conn, $sql);
 
 		if (mysqli_num_rows($result) == 1) 

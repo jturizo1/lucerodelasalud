@@ -24,7 +24,7 @@
                   <li><a href="#mision">Misión & Visión</a></li>
                   <li><a href="#equipo">Nuestro Equipo</a></li>
                   <li><a href="#equipo">Capacitaciones</a></li>
-                  <li><a href="#equipo">Ingreso</a></li>
+                  <li><a href="../../App/Users/Login/index.php" target="__blank">Ingreso</a></li>
                </ul>
             </div>
          </div>
@@ -68,7 +68,7 @@
                               <span><i class="fa-solid fa-phone"></i></span>
                            </div>
                            <div class="footer-info-text">
-                              <a href="https://wa.link/1mnyiv">+57 305 7897 369</a>
+                              <a href="https://wa.link/1mnyiv" target="_blank">+57 305 789 7369</a>
                            </div>
                         </div>
                      </div>

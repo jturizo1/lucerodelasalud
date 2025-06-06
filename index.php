@@ -131,7 +131,7 @@
                            <i class="far fa-phone"></i>
                         </div>
                         <div class="offcanvas__contact-text">
-                           <a href="https://wa.link/1mnyiv">+57 305 789 7369</a>
+                           <a href="https://wa.link/1mnyiv" target="_blank">+57 305 789 7369</a>
                         </div>
                      </li>
                      <li class="d-flex align-items-center">
@@ -224,7 +224,7 @@
                         </a>
                      <div class="link-text">
                         <span><img src="assets/imgs/svg/phone-call.svg" alt=""></span>
-                        <a href="#">+57 305 789 7369</a>
+                        <a href="https://wa.link/1mnyiv" target="_blank">+57 305 789 7369</a>
                      </div>
                   </div>
                </div>
