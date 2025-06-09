@@ -12,7 +12,6 @@
                 <div class="main-menu">
                     <nav id="mobile-menu">
                         <ul>
-<<<<<<< HEAD
                             <li><a href="#">Inicio</a></li>
                             <li><a href="#nosotros">Nosotros</a></li>
                             <li><a href="#servicios">Servicios</a></li>
@@ -20,15 +19,6 @@
                             <li><a href="#equipo">Nuestro Equipo</a></li>
                             <li><a href="#capacitaciones">Capacitaciones</a></li>
                             <li><a href="../../App/Users/Login/index.php" target="_blank">Ingreso</a></li>
-=======
-                            <li><a class="font-menu" href="#">Inicio</a></li>
-                            <li><a class="font-menu" href="#nosotros">Nosotros</a></li>
-                            <li><a class="font-menu" href="#servicios">Servicios</a></li>
-                            <li><a class="font-menu" href="#mision">Misión & Visión</a></li>
-                            <li><a class="font-menu" href="#equipo">Nuestro Equipo</a></li>
-                            <li><a class="font-menu" href="#equipo">Capacitaciones</a></li>
-                            <li><a class="font-menu" href="#equipo">Ingreso</a></li>
->>>>>>> 2cc9dc92abaa00828cfca10ea3f62c7471c25268
                         </ul>
                     </nav>
                     <!-- for wp -->
