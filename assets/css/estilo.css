@@ -1,5 +1,5 @@
 .seccion-resaltada {
-  animation: resaltar 2s ease-in-out;
+  animation: resaltar 3s ease-in-out;
 }
 
 @keyframes resaltar {

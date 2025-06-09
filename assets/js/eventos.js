@@ -42,14 +42,14 @@ function perfil1() {
   
   // Eventos de Barra de Busqueda 
 
-document.getElementById("searchForm").addEventListener("submit", function(e) {
+document.getElementById("searchForm").addEventListener("submit", function (e) {
   e.preventDefault();
   const query = document.getElementById("searchInput").value.toLowerCase();
 
   const secciones = [
-    { id: "nosotros", nombre: "Nosotros", keywords: ["nosotros", "quiénes somos", "empresa"] },
-    { id: "servicios", nombre: "Servicios", keywords: ["servicios", "hospitalización", "medicamentos", "acompañamientos"] },
-    { id: "contacto", nombre: "Contacto", keywords: ["contacto", "ubicación", "correo", "teléfono"] }
+    { id: "nosotros", nombre: "nosotros", keywords: ["nosotros", "enfermería", "pacientes"] },
+    { id: "servicios", nombre: "servicios", keywords: ["hospitalizacion", "tramites", "medicamentos", "acompañamientos"] },
+    { id: "equipo", nombre: "equipo", keywords: ["enfermera", "personal", "auxiliar", "expertos"] }
   ];
 
   const match = secciones.find(seccion =>
@@ -66,20 +66,22 @@ document.getElementById("searchForm").addEventListener("submit", function(e) {
       showConfirmButton: false,
       timer: 1200
     }).then(() => {
-      // Cerrar el menú lateral (offcanvas)
+      // Cerrar el offcanvas
       const closeButton = document.querySelector(".offcanvas__close button");
       if (closeButton) closeButton.click();
 
-      // Ir a la sección
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      // Esperar 400ms antes de hacer scroll (ajusta según tu animación CSS)
+      setTimeout(() => {
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
 
-        // Agregar clase para resaltar
-        target.classList.add("seccion-resaltada");
-        setTimeout(() => {
-          target.classList.remove("seccion-resaltada");
-        }, 2000);
-      }
+          // Resaltar la sección
+          target.classList.add("seccion-resaltada");
+          setTimeout(() => {
+            target.classList.remove("seccion-resaltada");
+          }, 2000);
+        }
+      }, 400); // Ajusta este valor si tu offcanvas tarda más o menos en cerrarse
     });
 
   } else {
@@ -88,7 +90,7 @@ document.getElementById("searchForm").addEventListener("submit", function(e) {
       icon: "error",
       title: "No se encontró una sección relacionada.",
       showConfirmButton: false,
-      timer: 2000
+      timer: 1200
     });
   }
 });
