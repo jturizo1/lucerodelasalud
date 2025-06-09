@@ -43,7 +43,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 		if (mysqli_num_rows($result) == 1) 
 			{
 				$_SESSION['user'] = $username;
-				header("Location: Dashboard.php");
+				header("Location: ../../Back/Dashboard.php");
+				
 			} 
 		else 
 			{
@@ -54,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form" method="$_POST">
+				<form class="login100-form validate-form" method="POST">
 					<span class="login100-form-logo">
 						<!--i class="zmdi zmdi-landscape"></i-->
 						<img class="img-logo" src="images/Logo.png">						
