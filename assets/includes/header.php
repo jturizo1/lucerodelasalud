@@ -12,13 +12,13 @@
                 <div class="main-menu">
                     <nav id="mobile-menu">
                         <ul>
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#nosotros">Nosotros</a></li>
-                            <li><a href="#servicios">Servicios</a></li>
-                            <li><a href="#mision">Misión & Visión</a></li>
-                            <li><a href="#equipo">Nuestro Equipo</a></li>
-                            <li><a href="#equipo">Capacitaciones</a></li>
-                            <li><a href="#equipo">Ingreso</a></li>
+                            <li><a class="font-menu" href="#">Inicio</a></li>
+                            <li><a class="font-menu" href="#nosotros">Nosotros</a></li>
+                            <li><a class="font-menu" href="#servicios">Servicios</a></li>
+                            <li><a class="font-menu" href="#mision">Misión & Visión</a></li>
+                            <li><a class="font-menu" href="#equipo">Nuestro Equipo</a></li>
+                            <li><a class="font-menu" href="#equipo">Capacitaciones</a></li>
+                            <li><a class="font-menu" href="#equipo">Ingreso</a></li>
                         </ul>
                     </nav>
                     <!-- for wp -->

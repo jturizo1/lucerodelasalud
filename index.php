@@ -51,19 +51,31 @@
    <!-- preloader start -->
 
    <!-- Back to top start -->
-    
+
+
+   <a href="https://wa.me/573001234567" class="whatsapp" id="btnWhatsapp" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+   </a>    
+  
+   <script>
+       const btnWhatsapp = document.getElementById('btnWhatsapp');
+
+      window.addEventListener('scroll', () => {
+         if (window.scrollY > 300) {
+            btnWhatsapp.classList.add('active-progress');
+         } else {
+            btnWhatsapp.classList.remove('active-progress');
+         }
+      });
+   </script>
+
    <div style="position: fixed;" class="backtotop-wrap cursor-pointer">
       <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
       </svg>
    </div>
 
-<!-- Icono de Whatsapp -->
-   <a href="https://wa.link/1mnyiv" class="whatsapp-float" target="_blank" title="Chatea con nosotros en WhatsApp">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" />
-   </a>
 
-<!-- Icono de Whatsapp -->
 
    <!-- Back to top end -->
 
@@ -117,11 +129,11 @@
                   </div>
                </div>
                <div class="offcanvas__search mb-25">
-                  <form action="#">
-                     <input type="text" placeholder="Qué estás buscando?">
-                     <button type="submit"><i class="far fa-search"></i></button>
+                  <form id="searchForm" action="#">
+                     <input type="text" id="searchInput" placeholder="¿Qué estás buscando?">
+                     <button type="submit"><i class="far fa-search"></i> Buscar</button>
                   </form>
-               </div>
+               </div>  
                <div class="mobile-menu fix mb-40"></div>
                <div class="offcanvas__contact mt-30 mb-20">
                   <h4>Información de Contacto</h4>
@@ -160,6 +172,10 @@
    <div class="offcanvas__overlay-white"></div>
    <!-- Offcanvas area start -->
 
+   <script>
+  
+</script>
+
    <!-- Header area start -->
     <header>
       <?php include 'assets/includes/header.php';   ?>
@@ -170,7 +186,7 @@
    <!-- Body main wrapper start -->
    <main>
       <section class="hero-section">         
-        <video autoplay="" muted="" loop=""  width="100%" height="900px">
+        <video autoplay="" muted="" loop=""  width="100%" height="auto">
                <source src="assets/videos/Background.mp4" type="video/mp4">
                <source src="assets/videos/Background.mp4" type="video/webm">
                Tu navegador no soporta la etiqueta de video HTML5.
@@ -210,7 +226,7 @@
                      <span class="section-subtitle-2 mb-25">Acerca de Nosotros</span>
                      <h2 class="section-title">Luceros <BR>de la Salud</h2>
                   </div>
-                  <p style="text-align: justify;">Nos dedicamos a ofrecer servicios de enfermería especializados y humanizados, enfocados en la atención domiciliaria personalizada. 
+                  <p class="item-busqueda" style="text-align: justify;">Nos dedicamos a ofrecer servicios de enfermería especializados y humanizados, enfocados en la atención domiciliaria personalizada. 
                      Nuestro equipo de profesionales actúa con ética, vocación y compromiso, brindando cuidados integrales que promueven el bienestar y la recuperación 
                      de nuestros pacientes. Nos proyectamos como líderes a nivel nacional en atención de calidad, con una fuerte orientación a la mejora continua, 
                      la innovación y el desarrollo profesional, siendo un referente en el cuidado de la salud con calidez y excelencia.</p>
@@ -298,7 +314,7 @@
                <p style="text-align: justify;">Brindamos atención especializada en el hogar para pacientes que requieren cuidados hospitalarios sin necesidad de permanecer en una clínica. 
                   Nuestro servicio de hospitalización domiciliaria incluye monitoreo constante, administración de tratamientos, control de signos vitales y 
                   seguimiento médico, todo en un entorno familiar y seguro, promoviendo una recuperación más cómoda y humanizada.</p>
-               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
+               <!--<a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
             </div>
          </div>
          <div class="service-item-2">
@@ -313,7 +329,7 @@
                <p style="text-align: justify;">En Luceros de la Salud acompañamos a nuestros pacientes y sus familias en la gestión de trámites ante las EPS, facilitando autorizaciones, 
                   renovación de servicios y seguimiento de procesos administrativos. Nuestro equipo está capacitado para brindar orientación clara y oportuna, 
                   aliviando la carga burocrática y asegurando el acceso oportuno a los servicios de salud requeridos.</p>
-               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
+               <!-- <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
             </div>
          </div>
          <div class="service-item-2">
@@ -328,7 +344,7 @@
                <p style="text-align: justify;">Ofrecemos un servicio seguro y profesional de administración de medicamentos en el hogar, garantizando el cumplimiento de tratamientos médicos 
                   con precisión y responsabilidad. Nuestro personal de enfermería se encarga de aplicar medicamentos por vía oral, intravenosa, intramuscular y subcutánea, 
                   asegurando la correcta dosificación, horarios y registro, con el fin de proteger la salud y bienestar del paciente.</p>
-               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
+               <!-- <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
             </div>
          </div>
          <div class="service-item-2">
@@ -343,7 +359,7 @@
                <p style="text-align: justify;">Brindamos orientación y formación a familiares de pacientes con Alzheimer, demencias y esquizofrenia, con el objetivo de fortalecer sus habilidades 
                   para el cuidado diario. A través de sesiones prácticas y asesoría especializada, enseñamos estrategias para el manejo de síntomas, comunicación efectiva 
                   y contención emocional, promoviendo un entorno más seguro, comprensivo y digno tanto para el paciente como para su núcleo familiar.</p>
-               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
+              <!--  <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
             </div>
          </div>
          <div class="service-item-2">
@@ -358,7 +374,7 @@
                <p style="text-align: justify;">En Luceros de la Salud facilitamos la recogida de medicamentos en farmacias y entidades de salud, garantizando que nuestros pacientes reciban sus tratamientos
                    de manera oportuna y segura. Este servicio está pensado para apoyar a quienes enfrentan barreras de movilidad o tiempo, asegurando continuidad en el tratamiento
                    sin complicaciones ni demoras.</p>
-               <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a>
+              <!--  <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
             </div>
          </div>
       </div>
