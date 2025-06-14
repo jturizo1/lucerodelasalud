@@ -101,7 +101,7 @@ $usuarios = $stmt->fetchAll();
                         <tr>
                             <td>
                                 <?php if ($u['foto']): ?>
-                                    <img src="uploads/<?= htmlspecialchars($u['foto']) ?>" width="40" height="40" style="object-fit:cover; border-radius:50%;">
+                                    <img src="../uploads/<?= htmlspecialchars($u['foto']) ?>" width="40" height="40" style="object-fit:cover; border-radius:50%;">
                                 <?php else: ?>
                                     <span class="text-muted">Sin Foto</span>
                                 <?php endif; ?>

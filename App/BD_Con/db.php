@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'logindb';
+$db = 'appbd_lds';
 $user = 'root';
 $pass = 'Adm1n1str4d0r';
 $charset = 'utf8mb4';

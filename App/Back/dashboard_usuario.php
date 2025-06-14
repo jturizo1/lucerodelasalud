@@ -1,11 +1,11 @@
 <?php
 session_start();
-require 'db.php';
+require '../BD_Con/db.php';
 
 // Verifica si el usuario está autenticado y es "usuario"
 if (!isset($_SESSION['user_id']) || $_SESSION['rol'] !== 'usuario') 
     {
-        header("Location: login.php");
+        header("Location: ../index.php");
         exit;
     }
 
@@ -31,14 +31,14 @@ $usuarios = $stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <title>Dashboard Usuario</title>
-    <link href="assets/style/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/style/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 <div class="container py-5">
     <div class="d-flex justify-content-between mb-4">
         <h3>Bienvenido, <?= htmlspecialchars($_SESSION['nombre']) ?></h3>
-        <a href="cambiar_password.php" class="btn btn-outline-secondary">Cambiar Contraseña</a>
-        <a href="logout.php" class="btn btn-outline-danger">Cerrar Sesión</a>
+        <a href="../Users/cambiar_password.php" class="btn btn-outline-secondary">Cambiar Contraseña</a>
+        <a href="../Users/logout.php" class="btn btn-outline-danger">Cerrar Sesión</a>
     </div>
 
     <div class="card shadow">
@@ -82,7 +82,7 @@ $usuarios = $stmt->fetchAll();
         </ul>
     </nav>
 </div>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="/assets/js/users.js"></script>
+<script src="../assets/js/sweetalert.min.js"></script>
+<script src="../assets/js/users.js"></script>
 </body>
 </html>
