@@ -24,7 +24,7 @@
                   <li><a href="#mision">Misión & Visión</a></li>
                   <li><a href="#equipo">Nuestro Equipo</a></li>
                   <li><a href="#equipo">Capacitaciones</a></li>
-                  <li><a href="../../App/Users/Login/index.php" target="__blank">Ingreso</a></li>
+                  <li><a href="../../App/index.php" target="__blank">Ingreso</a></li>
                </ul>
             </div>
          </div>

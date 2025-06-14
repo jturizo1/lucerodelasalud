@@ -30,21 +30,20 @@
 <body>
 <?php
 session_start();
-include '../../BD_Con/str_conex.php';
+include 'App/str_conex.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 	{
 		$username = $_POST['username'];
 		$password = md5($_POST['password']);
 
-		$sql = "SELECT * FROM users WHERE username='$username' AND passwordkey='$password'";
+		$sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
 		$result = mysqli_query($conn, $sql);
 
 		if (mysqli_num_rows($result) == 1) 
 			{
 				$_SESSION['user'] = $username;
-				header("Location: ../../Back/Dashboard.php");
-				
+				header("Location: Dashboard.php");
 			} 
 		else 
 			{
@@ -55,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form" method="POST">
+				<form class="login100-form validate-form" method="$_POST">
 					<span class="login100-form-logo">
 						<!--i class="zmdi zmdi-landscape"></i-->
 						<img class="img-logo" src="images/Logo.png">						
