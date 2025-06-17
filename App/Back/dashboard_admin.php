@@ -71,7 +71,7 @@ $usuarios = $stmt->fetchAll();
     </form>
 
     <!-- Exportar -->
-    <div class="mb-3">
+    <div class="mb-4">
         <a href="export_excel.php" class="btn btn-outline-success">Exportar a Excel</a>
         <a href="export_pdf.php" class="btn btn-outline-danger">Exportar a PDF</a>
     </div>
