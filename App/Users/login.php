@@ -28,13 +28,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 {
                     header('Location: ../Back/dashboard_usuario.php');
                 }
-            $error = "Su Usuario no se encuentra Activo. Contacte su Administrador";
+            $error = "Su Usuario no se Encuentra Activo. Contacte su Administrador";
                 /*header('Location: index.php');*/
         } 
         
     else 
         {
-            $error = "Correo o contraseña incorrectos.";
+            $error = "Correo o Contraseña Incorrectos.";
         }
 }
 ?>
@@ -96,6 +96,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	<link rel="stylesheet" type="text/css" href="../assets/style/util.css">
 <!--===============================================================================================-->
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9GLLP82379"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9GLLP82379');
+</script>
+
 <body>
     <div class="limiter">
 		<div class="container-login100" style="background-image: url('../assets/images/background.jpg');">
