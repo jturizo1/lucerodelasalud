@@ -132,11 +132,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn" type="submit">Inicio</button>
 					</div>
-					<div class="text-center p-t-90">
+					<!--div class="text-center p-t-90">
 						<a class="txt1" href="#">
 							¿Olvidaste tu Contraseña?
 						</a>
-					</div>
+					</div-->
 				</form>
 				<?php if (!empty($error)) echo $error; ?>
 			</div>
