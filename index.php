@@ -31,6 +31,7 @@
    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
+<<<<<<< HEAD
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GLLP82379"></script>
 <script>
@@ -40,6 +41,11 @@
 
   gtag('config', 'G-9GLLP82379');
 </script>
+=======
+<style>
+
+</style>
+>>>>>>> d01a5acee4a10f87e0aab5cdbaf510205f6152a7
 
 <body>
 
@@ -195,42 +201,30 @@
 
    <!-- Body main wrapper start -->
    <main>
-      <section class="hero-section">         
-        <video autoplay="" muted="" loop=""  width="100%" height="auto">
-               <source src="assets/videos/Background.mp4" type="video/mp4">
-               <source src="assets/videos/Background.mp4" type="video/webm">
-               Tu navegador no soporta la etiqueta de video HTML5.
-         </video>
+      <section>
+            <video autoplay="" muted="" loop=""  width="100%" height="auto">
+                  <source src="assets/videos/Background.mp4" type="video/mp4">
+                  <source src="assets/videos/Background.mp4" type="video/webm">
+                  Tu navegador no soporta la etiqueta de video HTML5.
+            </video>
       </section>
    </main>
    <!-- Body main wrapper end -->
 
    <!-- About area start -->
-   <section class="about-area p-relative section-space p-relative fix" id="nosotros">
-      <div class="about__shape">
-         <img src="assets/imgs/shapes/about-shapes.png" alt="">
-      </div>
+    <section style="padding-top:20px; padding-bottom:20px;" id="nosotros">
       <div class="container">
-         <div class="row g-60 align-items-center">
-            <div class="col-xxl-6 col-xl-6 col-lg-6">
-               <div class="about-thumb-wrapper-2 p-relative z-index-11 wow fadeInLeft animated" data-wow-delay="0.3s"><!--
-                  <div class="about-cercle">
-                     <a class="popup-video round-cercle" href="https://www.youtube.com/watch?v=id_jX2HlMdc">
-                        <span class="icon-box"><i class="fa-solid fa-play"></i></span>
-                        <img class="image-text rotate-circle" src="assets/imgs/shapes/text-circle.png" alt="">
-                     </a>
-                  </div>-->
-                  <div class="about-thumb w-img">
+         <div class="row">
+            <div class="col-6">
+               <div class="about-thumb w-img">
                      <video autoplay="" muted="" loop="" controls width="100%" height="700px">
                         <source src="assets/videos/Nosotros.mp4" type="video/mp4">
                         <source src="assets/videos/Nosotros.mp4" type="video/webm">
                         Tu navegador no soporta la etiqueta de video HTML5.
                     </video>
-                  </div>
-                  
                </div>
             </div>
-            <div class="col-xxl-6 col-xl-6 col-lg-6">
+            <div class="col-6">
                <div class="about-content-box-2 wow  fadeInRight animated" data-wow-delay="0.3s">
                   <div class="section-title-wrapper-2 mb-15">
                      <span class="section-subtitle-2 mb-25">Acerca de Nosotros</span>
@@ -253,144 +247,113 @@
                         <a href="https://wa.link/1mnyiv" target="_blank">+57 305 789 7369</a>
                      </div>
                   </div>
-               </div>
             </div>
          </div>
       </div>
-   </section>
-   <!-- About area end -->
+    </section>
 
-   <!-- Service area start -->
-   <section class="service-area p-relative fix" id="servicios">
-      <div class="service-bg">
-         <div class="service-bg-thumb include-bg" data-background="assets/imgs/bg/service-bg.png"></div>
-      </div>
+    <section style="background-color:#0C7FF0; padding-top:20px; padding-bottom:20px;" id="servicios">
       <div class="container">
-         <div class="service-title-wrapper wow fadeInUp" data-wow-delay="0.3s">
-            <div class="row align-items-center">
-               <div class="col-xxl-12">
-                  <div class="title-inner mb-15 d-flex align-items-end">
-                     <h2 style="padding-bottom: 30px;" class="service-title p-relative">Nuestros Servicios</h2>
-                     <div class="health-icon-2 d-none d-md-block">
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-xxl-12">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <p style="text-align: justify; color: white;" class="mb-0">En Luceros de la Salud ofrecemos una amplia gama de servicios de enfermería domiciliaria, diseñados para brindar atención 
+         <div class="row">
+            <h1 style="color:white !important; ">Nuestros Servicios</h1>
+         </div>
+         <div class="row">
+            <div class="col-6">
+               <p style="text-align: justify; color: white;" class="mb-0">En Luceros de la Salud ofrecemos una amplia gama de servicios de enfermería domiciliaria, diseñados para brindar atención 
                         personalizada, ética y de alta calidad en el entorno más cómodo para el paciente: su hogar. Nuestro equipo de profesionales está capacitado
                         para atender necesidades de promoción, mantenimiento y recuperación de la salud, con un enfoque integral y humano. Desde cuidados postoperatorios,
                         control de signos vitales y administración de medicamentos, hasta acompañamiento en procesos crónicos o paliativos, garantizamos un servicio 
-                        comprometido con el bienestar, la dignidad y la tranquilidad de cada persona y su familia.</p>
-                     </div>
-                     <div class="col-md-6">
-                        <center>
-                           <img width="500px" height="600px" src="https://garcialawfirmtj.com/wp-content/uploads/2019/05/Screen-Shot-2019-05-15-at-7.29.19-PM-1.png" alt="imagen">
-                        </center>
-                     </div>
-                  </div>
-                </div>
+                        comprometido con el bienestar, la dignidad y la tranquilidad de cada persona y su familia.
+               </p>  
             </div>
-            <div style="padding-top: 30px;" class="row">
-               <div class="col-xxl-12">
-                  <div class="service-btn-wrapper">
-                     <div class="section-title-wrapper-2 is-white"><!--
-                        <span class="section-subtitle-2">Our benefit</span>-->
-                     </div>
-                     <a href="#" class="fill-btn secondary">
-                        <span class="fill-btn-inner">
-                           <span class="fill-btn-normal">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
-                           <span class="fill-btn-hover">Ver Mas ...<i class="fa-regular fa-angle-right"></i></span>
-                        </span>
-                     </a>
+            <div class="col-6">
+               <center>
+                  <img style="border-radius:5px" width="490px" height="280" src="https://garcialawfirmtj.com/wp-content/uploads/2019/05/Screen-Shot-2019-05-15-at-7.29.19-PM-1.png" alt="imagen">
+               </center>
+            </div>
+         </div>
+      </div><!-- fin div container-->
+      <div style="padding-top:30px !important;" class="contanier-full">
+            <div class="service-grid wow fadeInUp" data-wow-delay="0.3s">
+               <div class="service-item-2">
+                  <div class="service-icon-2 mb-25">
+                     <span>
+                        <img src="assets/imgs/service/icon/1/service-1.png" alt="">
+                        <img src="assets/imgs/service/icon/1/service-2-1.png" alt="">
+                     </span>
+                  </div>
+                  <h5 class="service-title-2"><a href="#">HOSPITALIZACIÓN</a></h5>
+                  <div class="service-bottom-content">
+                     <p style="text-align: justify;">Brindamos atención especializada en el hogar para pacientes que requieren cuidados hospitalarios sin necesidad de permanecer en una clínica. 
+                        Nuestro servicio de hospitalización domiciliaria incluye monitoreo constante, administración de tratamientos, control de signos vitales y 
+                        seguimiento médico, todo en un entorno familiar y seguro, promoviendo una recuperación más cómoda y humanizada.
+                     </p>
+                  </div>
+               </div>
+               <div class="service-item-2">
+                  <div class="service-icon-2 mb-25">
+                     <span>
+                        <img src="assets/imgs/service/icon/1/service-2.png" alt="">
+                        <img src="assets/imgs/service/icon/1/service-2-2.png" alt="">
+                     </span>
+                  </div>
+                  <h5 class="service-title-2"><a href="#">TRÁMITES ANTE EPS</a></h5>
+                  <div class="service-bottom-content">
+                     <p style="text-align: justify;">En Luceros de la Salud acompañamos a nuestros pacientes y sus familias en la gestión de trámites ante las EPS, facilitando autorizaciones, 
+                        renovación de servicios y seguimiento de procesos administrativos. Nuestro equipo está capacitado para brindar orientación clara y oportuna, 
+                        aliviando la carga burocrática y asegurando el acceso oportuno a los servicios de salud requeridos.
+                     </p>
+                  </div>
+               </div>
+               <div class="service-item-2">
+                  <div class="service-icon-2 mb-25">
+                     <span>
+                        <img src="assets/imgs/service/icon/1/service-3.png" alt="">
+                        <img src="assets/imgs/service/icon/1/service-2-3.png" alt="">
+                     </span>
+                  </div>
+                  <h5 class="service-title-2"><a href="#">ADMINISTRACIÓN DE MEDICAMENTOS</a></h5>
+                  <div class="service-bottom-content">
+                     <p style="text-align: justify;">Ofrecemos un servicio seguro y profesional de administración de medicamentos en el hogar, garantizando el cumplimiento de tratamientos médicos 
+                        con precisión y responsabilidad. Nuestro personal de enfermería se encarga de aplicar medicamentos por vía oral, intravenosa, intramuscular y subcutánea, 
+                        asegurando la correcta dosificación, horarios y registro, con el fin de proteger la salud y bienestar del paciente.
+                     </p>
+                  </div>
+               </div>
+               <div class="service-item-2">
+                  <div class="service-icon-2 mb-25">
+                     <span>
+                        <img src="assets/imgs/service/icon/1/service-4.png" alt="">
+                        <img src="assets/imgs/service/icon/1/service-2-4.png" alt="">
+                     </span>
+                  </div>
+                  <h5 class="service-title-2"><a href="#">ACOMPAÑAMIENTOS</a></h5>
+                  <div class="service-bottom-content">
+                     <p style="text-align: justify;">Brindamos orientación y formación a familiares de pacientes con Alzheimer, demencias y esquizofrenia, con el objetivo de fortalecer sus habilidades 
+                        para el cuidado diario. A través de sesiones prácticas y asesoría especializada, enseñamos estrategias para el manejo de síntomas, comunicación efectiva 
+                        y contención emocional, promoviendo un entorno más seguro, comprensivo y digno tanto para el paciente como para su núcleo familiar.
+                     </p>
+                  </div>
+               </div>
+               <div class="service-item-2">
+                  <div class="service-icon-2 mb-25">
+                     <span>
+                        <img src="assets/imgs/service/icon/1/service-5.png" alt="">
+                        <img src="assets/imgs/service/icon/1/service-2-5.png" alt="">
+                     </span>
+                  </div>
+                  <h5 class="service-title-2"><a href="#">TRAMITES DE MEDICAMENTOS</a></h5>
+                  <div class="service-bottom-content">
+                     <p style="text-align: justify;">En Luceros de la Salud facilitamos la recogida de medicamentos en farmacias y entidades de salud, garantizando que nuestros pacientes reciban sus tratamientos
+                        de manera oportuna y segura. Este servicio está pensado para apoyar a quienes enfrentan barreras de movilidad o tiempo, asegurando continuidad en el tratamiento
+                        sin complicaciones ni demoras.
+                     </p>
                   </div>
                </div>
             </div>
-         </div>
-      </div>
-      <div class="service-grid wow fadeInUp" data-wow-delay="0.3s">
-         <div class="service-item-2">
-            <div class="service-icon-2 mb-25">
-               <span>
-                  <img src="assets/imgs/service/icon/1/service-1.png" alt="">
-                  <img src="assets/imgs/service/icon/1/service-2-1.png" alt="">
-               </span>
-            </div>
-            <h5 class="service-title-2"><a href="#">HOSPITALIZACIÓN</a></h5>
-            <div class="service-bottom-content">
-               <p style="text-align: justify;">Brindamos atención especializada en el hogar para pacientes que requieren cuidados hospitalarios sin necesidad de permanecer en una clínica. 
-                  Nuestro servicio de hospitalización domiciliaria incluye monitoreo constante, administración de tratamientos, control de signos vitales y 
-                  seguimiento médico, todo en un entorno familiar y seguro, promoviendo una recuperación más cómoda y humanizada.</p>
-               <!--<a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
-            </div>
-         </div>
-         <div class="service-item-2">
-            <div class="service-icon-2 mb-25">
-               <span>
-                  <img src="assets/imgs/service/icon/1/service-2.png" alt="">
-                  <img src="assets/imgs/service/icon/1/service-2-2.png" alt="">
-               </span>
-            </div>
-            <h5 class="service-title-2"><a href="#">TRÁMITES ANTE EPS</a></h5>
-            <div class="service-bottom-content">
-               <p style="text-align: justify;">En Luceros de la Salud acompañamos a nuestros pacientes y sus familias en la gestión de trámites ante las EPS, facilitando autorizaciones, 
-                  renovación de servicios y seguimiento de procesos administrativos. Nuestro equipo está capacitado para brindar orientación clara y oportuna, 
-                  aliviando la carga burocrática y asegurando el acceso oportuno a los servicios de salud requeridos.</p>
-               <!-- <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
-            </div>
-         </div>
-         <div class="service-item-2">
-            <div class="service-icon-2 mb-25">
-               <span>
-                  <img src="assets/imgs/service/icon/1/service-3.png" alt="">
-                  <img src="assets/imgs/service/icon/1/service-2-3.png" alt="">
-               </span>
-            </div>
-            <h5 class="service-title-2"><a href="#">ADMINISTRACIÓN DE MEDICAMENTOS</a></h5>
-            <div class="service-bottom-content">
-               <p style="text-align: justify;">Ofrecemos un servicio seguro y profesional de administración de medicamentos en el hogar, garantizando el cumplimiento de tratamientos médicos 
-                  con precisión y responsabilidad. Nuestro personal de enfermería se encarga de aplicar medicamentos por vía oral, intravenosa, intramuscular y subcutánea, 
-                  asegurando la correcta dosificación, horarios y registro, con el fin de proteger la salud y bienestar del paciente.</p>
-               <!-- <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
-            </div>
-         </div>
-         <div class="service-item-2">
-            <div class="service-icon-2 mb-25">
-               <span>
-                  <img src="assets/imgs/service/icon/1/service-4.png" alt="">
-                  <img src="assets/imgs/service/icon/1/service-2-4.png" alt="">
-               </span>
-            </div>
-            <h5 class="service-title-2"><a href="#">ACOMPAÑAMIENTOS</a></h5>
-            <div class="service-bottom-content">
-               <p style="text-align: justify;">Brindamos orientación y formación a familiares de pacientes con Alzheimer, demencias y esquizofrenia, con el objetivo de fortalecer sus habilidades 
-                  para el cuidado diario. A través de sesiones prácticas y asesoría especializada, enseñamos estrategias para el manejo de síntomas, comunicación efectiva 
-                  y contención emocional, promoviendo un entorno más seguro, comprensivo y digno tanto para el paciente como para su núcleo familiar.</p>
-              <!--  <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
-            </div>
-         </div>
-         <div class="service-item-2">
-            <div class="service-icon-2 mb-25">
-               <span>
-                  <img src="assets/imgs/service/icon/1/service-5.png" alt="">
-                  <img src="assets/imgs/service/icon/1/service-2-5.png" alt="">
-               </span>
-            </div>
-            <h5 class="service-title-2"><a href="#">TRAMITES DE MEDICAMENTOS</a></h5>
-            <div class="service-bottom-content">
-               <p style="text-align: justify;">En Luceros de la Salud facilitamos la recogida de medicamentos en farmacias y entidades de salud, garantizando que nuestros pacientes reciban sus tratamientos
-                   de manera oportuna y segura. Este servicio está pensado para apoyar a quienes enfrentan barreras de movilidad o tiempo, asegurando continuidad en el tratamiento
-                   sin complicaciones ni demoras.</p>
-              <!--  <a class="round-link" href="#"><i class="fa-regular fa-angle-right"></i></a> -->
-            </div>
-         </div>
-      </div>
+         </div> <!-- fin div container-full-->
    </section>
-   <!-- Service area end -->
-   <!-- Service area end -->
+   
     <section class="benefit-area section-space" id="mision">
         <div class="container">
             <div class="row">
@@ -415,8 +378,8 @@
             </div>
         </div>
     </section>
-   <!-- Testimonial area start -->
-   <section class="testimonial-area section-space p-relative">
+   <!-- Testimonial area start 
+   <section  class="testimonial-area section-space p-relative">
       <div class="testimonial-bg">
          <div class="testimonial-bg-thumb include-bg" data-background="assets/imgs/bg/testimonial-bg.png"></div>
       </div>
@@ -434,7 +397,7 @@
                               hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
                               ultrices mauris. Maecenas.</p>
                            <div class="testmonial-bottom">
-                              <!-- If we need navigation buttons -->
+                              
                               <div class="common-slider-navigation is-white">
                                  <button class="testimonial-button-prev"><i
                                        class="fa-regular fa-arrow-left"></i></button>
@@ -459,7 +422,7 @@
                               hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
                               ultrices mauris. Maecenas.</p>
                            <div class="testmonial-bottom">
-                              <!-- If we need navigation buttons -->
+                              
                               <div class="common-slider-navigation is-white">
                                  <button class="testimonial-button-prev"><i
                                        class="fa-regular fa-arrow-left"></i></button>
@@ -484,7 +447,7 @@
                               hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
                               ultrices mauris. Maecenas.</p>
                            <div class="testmonial-bottom">
-                              <!-- If we need navigation buttons -->
+                             
                               <div class="common-slider-navigation is-white">
                                  <button class="testimonial-button-prev"><i
                                        class="fa-regular fa-arrow-left"></i></button>
@@ -513,7 +476,7 @@
          </div>
       </div>
    </section>
-   <!-- Testimonial area end -->
+   Testimonial area end -->
 
    <!-- Team area start -->
    <section class="team-area border-up section-space" id="equipo">
@@ -576,6 +539,25 @@
                   </div>
                </div>
             </div>
+         </div>
+      </div>
+   </section>
+
+   <section style="padding-bottom:20px;" class="" id="capacitaciones">
+      <div class="container">
+         <div class="row ">
+            <div class="section-title-wrapper">
+               <div style="padding-top:30px" class="section-subtitle">
+                  <span>Capacitaciones</span>
+               </div>
+            </div>   
+         </div>
+         <div class="row">
+             <video autoplay="" muted="" loop=""  width="100%" height="auto">
+               <source src="assets/videos/Capacitaciones.mp4" type="video/mp4">
+               <source src="assets/videos/Capacitaciones.mp4" type="video/webm">
+               Tu navegador no soporta la etiqueta de video HTML5.
+         </video>
          </div>
       </div>
    </section>
