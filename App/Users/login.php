@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="../assets/images/favicon.ico"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="../assets/style/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/style/bootstrap-login.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
@@ -92,8 +92,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="../assets/vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="../assets/style/main.css">
-	<link rel="stylesheet" type="text/css" href="../assets/style/util.css">
+	<link rel="stylesheet" type="text/css" href="../assets/style/main-login.css">
+	<link rel="stylesheet" type="text/css" href="../assets/style/util-login.css">
 <!--===============================================================================================-->
 </head>
 

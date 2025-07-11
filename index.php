@@ -31,7 +31,6 @@
    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<<<<<<< HEAD
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9GLLP82379"></script>
 <script>
@@ -41,11 +40,9 @@
 
   gtag('config', 'G-9GLLP82379');
 </script>
-=======
 <style>
 
 </style>
->>>>>>> d01a5acee4a10f87e0aab5cdbaf510205f6152a7
 
 <body>
 
