@@ -1,3 +1,10 @@
+.container-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .border-default { border-color: #eef2f8!important; }
 .widget-content-area { padding-bottom: 32px; }
 .nav-tabs .nav-link.active {

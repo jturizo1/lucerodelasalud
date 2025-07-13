@@ -12,6 +12,7 @@ body {
     letter-spacing: 0.0312rem;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
+
 :focus { outline: none; }
 select.form-custom::-ms-expand {
     display: none;
