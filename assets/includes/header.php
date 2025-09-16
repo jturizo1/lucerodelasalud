@@ -18,7 +18,7 @@
                             <li><a href="#mision">Misión & Visión</a></li>
                             <li><a href="#equipo">Nuestro Equipo</a></li>
                             <li><a href="#capacitaciones">Capacitaciones</a></li>
-                            <li><a href="../../App/index.php" target="_blank">Ingreso</a></li>
+                            <li><a href="../../lds-app/index.php" target="_blank">Ingreso</a></li>
                         </ul>
                     </nav>
                     <!-- for wp -->
