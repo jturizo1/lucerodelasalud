@@ -20,17 +20,17 @@
     <div class="collapse navbar-collapse" id="nav">
       <ul class="navbar-nav me-auto">
         <?php if (is_admin()): ?>
-          <li class="nav-item"><a class="nav-link" href="/admin/dashboard.php">Dashboard</a></li>
-          <li class="nav-item"><a class="nav-link" href="/admin/users.php">Usuarios</a></li>
-          <li class="nav-item"><a class="nav-link" href="/admin/reportes.php">Reportes</a></li>
+          <li class="nav-item"><a class="nav-link" href="../admin/dashboard.php">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="../admin/users.php">Usuarios</a></li>
+          <li class="nav-item"><a class="nav-link" href="../admin/reportes.php">Reportes</a></li>
         <?php else: ?>
-          <li class="nav-item"><a class="nav-link" href="/user/dashboard.php">Dashboard</a></li>
-          <li class="nav-item"><a class="nav-link" href="/user/users.php">Usuarios</a></li>
+          <li class="nav-item"><a class="nav-link" href="../user/dashboard.php">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="../user/users.php">Usuarios</a></li>
         <?php endif; ?>
       </ul>
       <div class="d-flex align-items-center">
         <span class="me-3"><?php echo h($_SESSION['user']['nombre'] ?? ''); ?></span>
-        <a class="btn btn-outline-danger btn-sm" href="/auth/logout.php">Salir</a>
+        <a class="btn btn-outline-danger btn-sm" href="../auth/logout.php">Salir</a>
       </div>
     </div>
   </div>

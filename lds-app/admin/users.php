@@ -6,9 +6,9 @@
     <button class="btn btn-outline-primary">Buscar</button>
   </form>
   <div class="btn-group">
-    <a class="btn btn-success" href="/admin/user_form.php">+ Crear Usuario</a>
-    <a class="btn btn-outline-secondary" href="/export/export_excel.php">Exportar Excel</a>
-    <a class="btn btn-outline-secondary" href="/export/export_pdf.php">Exportar PDF</a>
+    <a class="btn btn-success" href="../admin/user_form.php">+ Crear Usuario</a>
+    <a class="btn btn-outline-secondary" href="../export/export_excel.php">Exportar Excel</a>
+    <a class="btn btn-outline-secondary" href="../export/export_pdf.php">Exportar PDF</a>
   </div>
 </div>
 <?php

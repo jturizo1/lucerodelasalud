@@ -20,7 +20,7 @@ define('MAIL_FROM', 'camiloasic@gmail.com');
 define('MAIL_FROM_NAME', 'Alertas Próximos a Vencer');
 
 // Rutas
-define('BASE_URL', '/lds-app'); // Ajusta si se despliega en Subcarpeta
+define('BASE_URL', '/lds-app/'); // Ajusta si se despliega en Subcarpeta
 define('UPLOAD_DIR', __DIR__ . '/Uploads');
 define('IMG_DIR', UPLOAD_DIR . '/images');
 define('CERT_DIR', UPLOAD_DIR . '/Certificados');

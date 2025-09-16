@@ -23,7 +23,7 @@ Aplicación web en PHP 8 + MySQL + Bootstrap 5 con:
 3. Copia el proyecto a tu servidor web y configura permisos de escritura a `Uploads/`.
 4. Edita `config.php` con credenciales de BD y SMTP (Gmail u otro).
 5. Abre `http://tu-dominio/` para iniciar sesión.
-   - Usuario inicial: ** admin@gmail.com ** / ** admin123 **.
+   - Usuario inicial: ** admin@gmail.com ** / ** @dmin123 **.
 6. Programa el CRON (Linux) para el envío automático de alertas:
    ```bash
    # Ejecuta todos los días a las 08:00 a.m. UTC-5 (America/Bogota)
