@@ -3,7 +3,7 @@ session_start();
 
 // === Ajusta Variables Según sea el Caso===
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'ldlsapp_db');
+define('DB_NAME', 'public_ldls_app');
 define('DB_USER', 'root');
 define('DB_PASS', 'Adm1n1str4d0r');
 
@@ -20,7 +20,7 @@ define('MAIL_FROM', 'camiloasic@gmail.com');
 define('MAIL_FROM_NAME', 'Alertas Próximos a Vencer');
 
 // Rutas
-define('BASE_URL', '/'); // Ajusta si se despliega en Subcarpeta
+define('BASE_URL', '/lds-app'); // Ajusta si se despliega en Subcarpeta
 define('UPLOAD_DIR', __DIR__ . '/Uploads');
 define('IMG_DIR', UPLOAD_DIR . '/images');
 define('CERT_DIR', UPLOAD_DIR . '/Certificados');

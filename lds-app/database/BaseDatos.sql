@@ -1,5 +1,5 @@
-CREATE database ldlsapp_db;
-use ldlsapp_db;
+CREATE database public_ldls_app;
+use public_ldls_app;
 
 CREATE TABLE IF NOT EXISTS users (
   id INT AUTO_INCREMENT PRIMARY KEY,
