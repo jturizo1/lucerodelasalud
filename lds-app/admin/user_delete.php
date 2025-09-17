@@ -4,4 +4,4 @@ $id = (int)($_GET['id'] ?? 0);
 if ($id > 0) {
   $mysqli->query("DELETE FROM users WHERE id={$id}");
 }
-redirect('/admin/users.php');
+redirect('../admin/users.php');

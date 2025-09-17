@@ -12,7 +12,7 @@ if ($editing) {
   $vaxs  = $mysqli->query("SELECT * FROM vacunas WHERE user_id={$id}")->fetch_all(MYSQLI_ASSOC);
 }
 ?>
-<form id="userForm" class="needs-validation" novalidate method="post" action="/admin/user_save.php" enctype="multipart/form-data">
+<form id="userForm" class="needs-validation" novalidate method="post" action="../admin/user_save.php" enctype="multipart/form-data">
 <input type="hidden" name="id" value="<?php echo h($user['id'] ?? ''); ?>">
 <ul class="nav nav-tabs" id="tabs" role="tablist">
   <li class="nav-item" role="presentation">
@@ -32,7 +32,7 @@ if ($editing) {
         <label class="form-label">Foto (PNG/JPG ≤ 2MB)</label>
         <input class="form-control" type="file" name="foto" accept=".png,.jpg,.jpeg">
         <?php if(!empty($user['foto'])): ?>
-          <img class="mt-2" src="<?php echo '/Uploads/images/' . h($user['foto']); ?>" style="width:100px;height:100px;object-fit:cover;border-radius:12px">
+          <img class="mt-2" src="<?php echo '../Uploads/images/' . h($user['foto']); ?>" style="width:100px;height:100px;object-fit:cover;border-radius:12px">
         <?php endif; ?>
       </div>
       <div class="col-md-4">
@@ -135,7 +135,7 @@ function addRow(kind, data={})
       </div>
       <div class="col-md-2"><label class="form-label">Archivo (PDF ≤2MB)</label>
         <input type="file" class="form-control" name="${prefix}[${id}][archivo]" accept=".pdf" ${data.archivo?'':'required'}>
-        ${data.archivo?`<a class="small" target="_blank" href="/view_document.php?path=${encodeURIComponent(data.archivo)}">Ver</a>`:''}
+        ${data.archivo?`<a class="small" target="_blank" href="../view_document.php?path=${encodeURIComponent(data.archivo)}">Ver</a>`:''}
       </div>
       <div class="col-md-1"><button type="button" class="btn btn-outline-danger" onclick="this.closest('.row').remove()">X</button></div>
     `;

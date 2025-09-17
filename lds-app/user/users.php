@@ -30,14 +30,14 @@ else
   <tbody>
   <?php while($u = $res->fetch_assoc()): ?>
     <tr>
-      <td><?php if($u['foto']): ?><img src="<?php echo '/Uploads/images/' . h($u['foto']); ?>" style="width:40px;height:40px;object-fit:cover;border-radius:50%"><?php endif; ?></td>
+      <td><?php if($u['foto']): ?><img src="<?php echo '../Uploads/images/' . h($u['foto']); ?>" style="width:40px;height:40px;object-fit:cover;border-radius:50%"><?php endif; ?></td>
       <td><?php echo h($u['documento']); ?></td>
       <td><?php echo h($u['nombre'] . ' ' . $u['apellido']); ?></td>
       <td><?php echo h($u['correo']); ?></td>
       <td><span class="badge bg-info"><?php echo h($u['perfil']); ?></span></td>
       <td><span class="badge <?php echo $u['estado']=='Activo'?'bg-success':'bg-secondary'; ?>"><?php echo h($u['estado']); ?></span></td>
       <td>
-        <a class="btn btn-sm btn-primary" href="/user/user_form.php?id=<?php echo $u['id']; ?>">Editar</a>
+        <a class="btn btn-sm btn-primary" href="user_form.php?id=<?php echo $u['id']; ?>">Editar</a>
       </td>
     </tr>
   <?php endwhile; ?>

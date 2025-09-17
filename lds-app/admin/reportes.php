@@ -42,12 +42,14 @@ $exp = $mysqli->query($expQuery);
   </div>
 </div>
 <script>
-new Chart(document.getElementById('pie'), {
-  type: 'pie',
-  data: {
-    labels: ['Total','Activos','Inactivos','Admins'],
-    datasets: [{ data: [<?php echo $total; ?>, <?php echo $activos; ?>, <?php echo $inactivos; ?>, <?php echo $admins; ?>] }]
-  }
-});
+new Chart(document.getElementById('pie'), 
+  {
+    type: 'pie',
+    data: 
+      {
+        labels: ['Total','Activos','Inactivos','Admins'],
+        datasets: [{ data: [<?php echo $total; ?>, <?php echo $activos; ?>, <?php echo $inactivos; ?>, <?php echo $admins; ?>] }]
+      }
+  });
 </script>
 <?php require_once __DIR__ . '/../partials/footer.php'; ?>

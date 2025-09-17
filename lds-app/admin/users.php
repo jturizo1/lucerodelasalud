@@ -33,7 +33,7 @@ if ($q !== '') {
   <tbody>
   <?php while($u = $res->fetch_assoc()): ?>
     <tr>
-      <td><?php if($u['foto']): ?><img src="<?php echo '/Uploads/images/' . h($u['foto']); ?>" style="width:40px;height:40px;object-fit:cover;border-radius:50%"><?php endif; ?></td>
+      <td><?php if($u['foto']): ?><img src="<?php echo '../Uploads/images/' . h($u['foto']); ?>" style="width:40px;height:40px;object-fit:cover;border-radius:50%"><?php endif; ?></td>
       <td><?php echo h($u['documento']); ?></td>
       <td><?php echo h($u['nombre'] . ' ' . $u['apellido']); ?></td>
       <td><?php echo h($u['correo']); ?></td>
@@ -42,8 +42,8 @@ if ($q !== '') {
       <td><?php echo h($u['created_at']); ?></td>
       <td><?php echo h($u['updated_at']); ?></td>
       <td>
-        <a class="btn btn-sm btn-primary" href="/admin/user_form.php?id=<?php echo $u['id']; ?>">Editar</a>
-        <a class="btn btn-sm btn-danger" href="/admin/user_delete.php?id=<?php echo $u['id']; ?>" onclick="return confirm('¿Eliminar usuario?')">Eliminar</a>
+        <a class="btn btn-sm btn-primary" href="../admin/user_form.php?id=<?php echo $u['id']; ?>">Editar</a>
+        <a class="btn btn-sm btn-danger" href="../admin/user_delete.php?id=<?php echo $u['id']; ?>" onclick="return confirm('¿Eliminar usuario?')">Eliminar</a>
       </td>
     </tr>
   <?php endwhile; ?>

@@ -105,4 +105,4 @@ function handleDocs($prefix, $dir, $table, $user_id)
 handleDocs('certificados', CERT_DIR, 'certificados', $user_id);
 handleDocs('vacunas', VAC_DIR, 'vacunas', $user_id);
 
-redirect('/admin/users.php');
+redirect('admin/users.php');

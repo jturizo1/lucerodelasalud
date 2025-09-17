@@ -1,4 +1,4 @@
-<?php $title='Dashboard Admin'; require_once __DIR__ . '/../auth/check_auth.php'; if(!is_admin()) redirect('user/dashboard.php'); ?>
+<?php $title='Dashboard Admin'; require_once __DIR__ . '/../auth/check_auth.php'; if(!is_admin()) redirect('../user/dashboard.php'); ?>
 <?php require_once __DIR__ . '/../partials/header.php'; ?>
 <?php
 $counts = 
