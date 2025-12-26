@@ -45,7 +45,19 @@ VALUES ('1234567890', 'Administrador', 'Principal', 'admin@gmail.com',
         'admin', 'Activo', '2000-01-01', '25', 'I-1234567890-foto.jpg')
 ON DUPLICATE KEY UPDATE correo=VALUES(correo);
 
+INSERT INTO users (documento, nombre, apellido, correo, password, perfil, estado, fecha_nacimiento, edad, foto)
+VALUES ('202512261727', 'Admin Luceros', 'de la Salud', 'lucerosdelasalud25@gmail.com', 
+        '$2y$12$E31vGpgeUpJoSdkouAYP4.Q/LIQcKzEab4dS95W6YqYp6qPOzGvbO', 
+        'admin', 'Activo', '2000-01-01', '25', 'I-1234567890-foto.jpg')
+ON DUPLICATE KEY UPDATE correo=VALUES(correo);
+
 --## Usuario: admin@gmail.com
 --## Password: @dmin123
+--## Usuario: lucerosdelasalud25@gmail.com
+--## Password: P@ssw0rdLucer0s25*
 -- Validar al Finalizar
 -- 'VALUES function' is deprecated and will be removed in a future release. Please use an alias (INSERT INTO ... VALUES (...) AS alias) and replace VALUES(col) in the ON DUPLICATE KEY UPDATE clause with alias.col instead
+--**Base de Datos y Usuario MySQL Luceros de la Salud - Publicación**--
+--Base de Datos: domini37_lds-app
+--Usuario MySQL Dominio Express: domini37_root	
+--Password MySQL Dominio Express: nR@#rt6qmQuWaIwZ
